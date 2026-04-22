@@ -1,12 +1,28 @@
 "use client";
 
-import { useRef } from "react";
-import { motion, useInView, useScroll, useTransform } from "framer-motion";
+import { useRef, useState, useEffect, useCallback } from "react";
+import { motion, useInView, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { openCalendly } from "@/lib/calendly";
 
 export default function MaestroHero() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+  const [showDemo, setShowDemo] = useState(false);
+
+  const closeDemo = useCallback(() => setShowDemo(false), []);
+
+  useEffect(() => {
+    if (!showDemo) return;
+    const handleKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closeDemo();
+    };
+    document.addEventListener("keydown", handleKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      document.removeEventListener("keydown", handleKey);
+      document.body.style.overflow = "";
+    };
+  }, [showDemo, closeDemo]);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
@@ -81,6 +97,15 @@ export default function MaestroHero() {
           >
             Request a Maestro Walkthrough
           </button>
+          <button
+            onClick={() => setShowDemo(true)}
+            className="inline-flex items-center gap-2 rounded-full border-2 border-[var(--dark-graphite)] px-8 py-4 text-base font-semibold text-[var(--dark-graphite)] transition-colors duration-200 hover:border-[var(--brand-red)] hover:text-[var(--brand-red)]"
+          >
+            <svg className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+            </svg>
+            Watch Demo
+          </button>
         </motion.div>
       </motion.div>
 
@@ -96,6 +121,43 @@ export default function MaestroHero() {
           </svg>
         </motion.div>
       </motion.div>
+      <AnimatePresence>
+        {showDemo && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.25 }}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
+            onClick={closeDemo}
+          >
+            <motion.div
+              initial={{ scale: 0.92, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.92, opacity: 0 }}
+              transition={{ duration: 0.3, ease: [0.25, 0.1, 0.25, 1] }}
+              className="relative w-full max-w-[960px]"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                onClick={closeDemo}
+                className="absolute -top-12 right-0 text-sm font-medium text-white/70 transition-colors hover:text-white"
+              >
+                Close
+              </button>
+              <div className="overflow-hidden rounded-2xl bg-black">
+                <video
+                  autoPlay
+                  controls
+                  playsInline
+                  className="h-auto w-full"
+                  src="/videos/maestro-demo.mp4"
+                />
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }
