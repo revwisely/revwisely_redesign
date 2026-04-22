@@ -69,7 +69,7 @@ export default function OldWaySection() {
             initial={{ opacity: 0, scale: 0.95, x: 30 }}
             animate={isInView ? { opacity: 1, scale: 1, x: 0 } : {}}
             transition={{ duration: 0.9, delay: 0.3 }}
-            className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04]"
+            className="relative aspect-video overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04]"
           >
             <video
               ref={videoRef}
@@ -77,7 +77,7 @@ export default function OldWaySection() {
               muted
               loop
               playsInline
-              className="h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover"
             />
           </motion.div>
         </div>

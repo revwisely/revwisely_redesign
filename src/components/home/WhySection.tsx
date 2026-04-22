@@ -32,7 +32,7 @@ export default function WhySection() {
             transition={{ duration: 0.8, delay: 0.1, ease: [0.25, 0.1, 0.25, 1] }}
             className="mt-6 text-[clamp(2.5rem,5vw,4rem)] font-bold leading-[1.1] tracking-tight text-[var(--dark-graphite)]"
           >
-            Why RevWisely.
+            What makes us different.
           </motion.h2>
 
           {/* Scroll-driven horizontal rule */}

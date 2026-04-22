@@ -5,16 +5,16 @@ import { motion, useInView } from "framer-motion";
 
 const services = [
   {
-    title: "Maestro AI Revenue System\u2122",
+    title: "Fractional Sales Leadership",
     description:
-      "AI agents that run your revenue operation. Signal detection, intelligence, and execution \u2014 designed as one coordinated system across marketing, sales, and RevOps.",
-    cta: "Explore the Maestro system",
-    href: "/maestro",
-    icon: "M9.348 14.651a3.75 3.75 0 010-5.303m5.304 0a3.75 3.75 0 010 5.303m-7.425 2.122a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546M5.106 18.894c-3.808-3.808-3.808-9.98 0-13.789m13.788 0c3.808 3.808 3.808 9.981 0 13.79M12 12h.008v.007H12V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z",
-    tagline: "The system that makes everything else work.",
+      "Executive-level revenue leadership without the full-time hire. We align teams, manage pipeline, and ensure the system delivers results. Embedded in your business, not advising from the outside.",
+    cta: "Learn more",
+    href: "/fractional-leadership",
+    icon: "M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z",
+    tagline: "Strategic leadership that keeps the system performing.",
   },
   {
-    title: "Revenue Architecture Build & Implementation",
+    title: "Revenue Infrastructure",
     description:
       "The RevOps foundation. Structured sales processes, CRM architecture, automation, tech stack integration, and dashboards \u2014 designed, deployed, and running in production.",
     cta: "Learn more",
@@ -23,13 +23,13 @@ const services = [
     tagline: "Architecture designed, deployed, and operational.",
   },
   {
-    title: "Fractional Revenue Leadership",
+    title: "Maestro AI Revenue System\u2122",
     description:
-      "Executive-level revenue leadership without the full-time hire. We align teams, manage pipeline, and ensure the system delivers results. Embedded in your business, not advising from the outside.",
-    cta: "Learn more",
-    href: "/fractional-leadership",
-    icon: "M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z",
-    tagline: "Strategic leadership that keeps the system performing.",
+      "AI agents that run your revenue operation. Signal detection, intelligence, and execution \u2014 designed as one coordinated system across marketing, sales, and RevOps.",
+    cta: "Explore the Maestro system",
+    href: "/maestro",
+    icon: "M9.348 14.651a3.75 3.75 0 010-5.303m5.304 0a3.75 3.75 0 010 5.303m-7.425 2.122a6.75 6.75 0 010-9.546m9.546 0a6.75 6.75 0 010 9.546M5.106 18.894c-3.808-3.808-3.808-9.98 0-13.789m13.788 0c3.808 3.808 3.808 9.981 0 13.79M12 12h.008v.007H12V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z",
+    tagline: "The system that makes everything else work.",
   },
 ];
 

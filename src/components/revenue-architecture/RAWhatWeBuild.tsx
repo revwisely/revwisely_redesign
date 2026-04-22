@@ -27,7 +27,7 @@ export default function RAWhatWeBuild() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="mt-6 text-[clamp(2.25rem,4.5vw,3.5rem)] font-bold leading-[1.1] tracking-tight text-[var(--dark-graphite)]"
           >
-            Revenue architecture.
+            Revenue infrastructure.
             <br />
             Deployed and operational.
           </motion.h2>

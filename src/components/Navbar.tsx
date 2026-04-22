@@ -4,9 +4,9 @@ import { useState, useEffect, useRef } from "react";
 import { openCalendly } from "@/lib/calendly";
 
 const serviceLinks = [
+  { label: "Fractional Sales Leadership", href: "/fractional-leadership" },
+  { label: "Revenue Infrastructure", href: "/revenue-architecture" },
   { label: "Maestro AI Revenue System\u2122", href: "/maestro" },
-  { label: "Revenue Architecture Build", href: "/revenue-architecture" },
-  { label: "Fractional Revenue Leadership", href: "/fractional-leadership" },
 ];
 
 export default function Navbar() {

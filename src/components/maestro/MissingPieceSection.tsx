@@ -29,7 +29,7 @@ export default function MissingPieceSection() {
             >
               The missing piece:
               <br />
-              revenue architecture.
+              revenue infrastructure.
             </motion.h2>
             <motion.div
               initial={{ scaleX: 0 }}

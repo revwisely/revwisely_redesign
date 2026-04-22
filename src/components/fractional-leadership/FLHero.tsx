@@ -33,7 +33,7 @@ export default function FLHero() {
               transition={{ duration: 0.6 }}
               className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--brand-red)]"
             >
-              Fractional Revenue Leadership
+              Fractional Sales Leadership
             </motion.p>
 
             <h1 className="mt-6 text-[clamp(2.25rem,4.5vw,3.5rem)] font-bold leading-[1.08] tracking-[-0.02em] text-[var(--dark-graphite)]">
@@ -92,7 +92,7 @@ export default function FLHero() {
               <div className="aspect-[4/3] w-full">
                 <img
                   src="/images/fl-hero.jpg"
-                  alt="Fractional revenue leadership"
+                  alt="Fractional sales leadership"
                   className="h-full w-full object-cover"
                   onError={(e) => {
                     const target = e.target as HTMLImageElement;

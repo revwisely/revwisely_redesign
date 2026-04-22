@@ -11,7 +11,6 @@ export default function SolutionSection() {
     offset: ["start end", "end start"],
   });
   const imageY = useTransform(scrollYProgress, [0, 1], [60, -60]);
-  const imageRotate = useTransform(scrollYProgress, [0, 1], [2, -1]);
 
   return (
     <section className="relative overflow-hidden bg-[var(--off-white)] py-20 lg:py-28">
@@ -82,7 +81,7 @@ export default function SolutionSection() {
 
           {/* Right — floating image with parallax + subtle rotation */}
           <motion.div
-            style={{ y: imageY, rotate: imageRotate }}
+            style={{ y: imageY }}
             initial={{ opacity: 0, scale: 0.9, x: 40 }}
             animate={isInView ? { opacity: 1, scale: 1, x: 0 } : {}}
             transition={{ duration: 1, delay: 0.3, ease: [0.25, 0.1, 0.25, 1] }}

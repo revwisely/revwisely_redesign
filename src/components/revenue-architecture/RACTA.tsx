@@ -48,7 +48,7 @@ export default function RACTA() {
           </div>
 
           <p className="mx-auto mt-8 max-w-lg text-base leading-relaxed text-white/50">
-            30 minutes. We&apos;ll map where your revenue architecture is today
+            30 minutes. We&apos;ll map where your revenue infrastructure is today
             and what it takes to get it where it needs to be.
           </p>
         </motion.div>

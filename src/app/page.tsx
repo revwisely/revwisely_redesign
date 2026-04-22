@@ -14,7 +14,7 @@ import Footer from "@/components/Footer";
 export const metadata: Metadata = {
   title: "RevWisely | Revenue Should Scale With Systems, Not Headcount",
   description:
-    "We design revenue systems that scale with AI built in from day one. Fractional leadership, revenue architecture, and the Maestro AI Revenue System.",
+    "We design revenue systems that scale with AI built in from day one. Fractional sales leadership, revenue infrastructure, and the Maestro AI Revenue System.",
 };
 
 export default function Home() {

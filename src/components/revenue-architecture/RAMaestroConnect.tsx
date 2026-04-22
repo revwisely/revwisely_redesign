@@ -46,7 +46,7 @@ export default function RAMaestroConnect() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.25 }}
           >
-            A well-built revenue architecture is valuable on its own.
+            A well-built revenue infrastructure is valuable on its own.
             It&apos;s also the foundation that makes AI possible.
           </motion.p>
           <motion.p
@@ -63,7 +63,7 @@ export default function RAMaestroConnect() {
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.45 }}
           >
-            Both paths start with architecture that actually works.
+            Both paths start with infrastructure that actually works.
           </motion.p>
         </div>
 

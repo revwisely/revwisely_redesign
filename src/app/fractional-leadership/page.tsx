@@ -10,7 +10,7 @@ import FLCTA from "@/components/fractional-leadership/FLCTA";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Fractional Revenue Leadership | RevWisely",
+  title: "Fractional Sales Leadership | RevWisely",
   description:
     "Executive-level revenue leadership embedded in your business without the full-time hire. A CRO in the system, not on the sideline.",
 };

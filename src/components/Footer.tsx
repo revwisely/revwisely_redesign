@@ -30,10 +30,10 @@ export default function Footer() {
             <ul className="mt-3 space-y-2">
               <li>
                 <a
-                  href="/maestro"
+                  href="/fractional-leadership"
                   className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
                 >
-                  Maestro AI Revenue System&#8482;
+                  Fractional Sales Leadership
                 </a>
               </li>
               <li>
@@ -41,15 +41,15 @@ export default function Footer() {
                   href="/revenue-architecture"
                   className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
                 >
-                  Revenue Architecture
+                  Revenue Infrastructure
                 </a>
               </li>
               <li>
                 <a
-                  href="/fractional-leadership"
+                  href="/maestro"
                   className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
                 >
-                  Fractional Leadership
+                  Maestro AI Revenue System&#8482;
                 </a>
               </li>
             </ul>
@@ -67,6 +67,38 @@ export default function Footer() {
                   className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
                 >
                   Insights
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/case-study"
+                  className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
+                >
+                  Case Study
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/about"
+                  className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/our-ai-agents"
+                  className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
+                >
+                  Our AI Agents
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/talent"
+                  className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
+                >
+                  Talent
                 </a>
               </li>
             </ul>
@@ -93,10 +125,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 flex flex-col items-center justify-between gap-4 border-t border-[var(--light-gray)] pt-8 md:flex-row">
           <p className="text-xs text-[var(--graphite)]">
-            &copy; {new Date().getFullYear()} RevWisely. All rights reserved.
-          </p>
-          <p className="text-xs italic text-[var(--brand-red)]">
-            The Maestro AI Revenue System.
+            &copy; {new Date().getFullYear()} RevWisely LLC. Maestro AI Revenue System&#8482; is a trademark of RevWisely.
           </p>
         </div>
       </div>
