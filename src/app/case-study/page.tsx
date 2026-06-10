@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
-import CaseStudyClient from "./CaseStudyClient";
+import CaseStudyLandingClient from "./CaseStudyLandingClient";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Case Study: Moving to AI-Native Workflows | RevWisely",
+  title: "Case Studies | RevWisely",
   description:
-    "How RevWisely cut operational costs 30–50% and accelerated workflows 2–5x by redesigning revenue operations as a unified, AI-native system.",
+    "Real engagements where RevWisely partnered with companies to redesign operations, build systems, and deliver measurable impact.",
 };
 
 export default function CaseStudyPage() {
   return (
     <>
       <Navbar />
-      <CaseStudyClient />
+      <CaseStudyLandingClient />
       <Footer />
     </>
   );

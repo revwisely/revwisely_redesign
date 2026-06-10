@@ -74,7 +74,7 @@ export default function Footer() {
                   href="/case-study"
                   className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
                 >
-                  Case Study
+                  Case Studies
                 </a>
               </li>
               <li>

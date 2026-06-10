@@ -75,6 +75,48 @@ export default function BlogPostClient({ title, content, image }: BlogPostClient
                 </h2>
               );
             }
+            if (block.type === "banner") {
+              const parts = block.text.split(/\{\{(.+?)\}\}/);
+              return (
+                <div key={i} className="my-10 rounded-2xl border border-[var(--brand-red)]/20 bg-[var(--brand-red-light)] p-8">
+                  <p className="text-base leading-relaxed text-[var(--dark-graphite)]">
+                    {parts.map((part, j) =>
+                      j % 2 === 1 ? (
+                        <a
+                          key={j}
+                          onClick={openCalendly}
+                          className="cursor-pointer font-semibold text-[var(--brand-red)] underline decoration-[var(--brand-red)]/30 underline-offset-4 transition-colors hover:text-[var(--dark-graphite)] hover:decoration-[var(--dark-graphite)]/30"
+                        >
+                          {part}
+                        </a>
+                      ) : (
+                        <span key={j} dangerouslySetInnerHTML={{ __html: part }} />
+                      )
+                    )}
+                  </p>
+                </div>
+              );
+            }
+            if (block.type === "cta") {
+              const parts = block.text.split(/\{\{(.+?)\}\}/);
+              return (
+                <p key={i} className="mb-5 text-base leading-relaxed text-[var(--graphite)]">
+                  {parts.map((part, j) =>
+                    j % 2 === 1 ? (
+                      <a
+                        key={j}
+                        onClick={openCalendly}
+                        className="cursor-pointer font-semibold text-[var(--brand-red)] underline decoration-[var(--brand-red)]/30 underline-offset-4 transition-colors hover:text-[var(--dark-graphite)] hover:decoration-[var(--dark-graphite)]/30"
+                      >
+                        {part}
+                      </a>
+                    ) : (
+                      <span key={j}>{part}</span>
+                    )
+                  )}
+                </p>
+              );
+            }
             if (block.type === "list_item") {
               return (
                 <div key={i} className="mb-2 flex gap-3 pl-1">

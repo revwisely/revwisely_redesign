@@ -8,19 +8,64 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "Salesforce Just Changed\nthe Rules",
-  image: "/images/blog/salesforce-just-changed-the-rules.jpeg",
-  slug: "salesforce-just-changed-the-rules",
+  title: "How to Choose an AI Workflow\nTransformation Partner",
+  image: "/images/blog/how-to-choose-an-ai-workflow-transformation-partner.jpeg",
+  slug: "how-to-choose-an-ai-workflow-transformation-partner",
 };
 
 const sidebarPosts = [
-  { title: "The CRO–CEO Relationship Is Broken", slug: "the-cro-ceo-relationship-is-broken" },
-  { title: "Sales Coverage Strategy", slug: "sales-coverage-strategy" },
-  { title: "AI-Driven Revenue Teams", slug: "ai-driven-revenue-teams" },
-  { title: "The Sales Rep of the Future", slug: "the-sales-rep-of-the-future" },
+  { title: "First AI Workflow Leaves the Nest (Week #6 Report-out)", slug: "first-ai-workflow-leaves-the-nest" },
+  { title: "Implementing AI-Native Workflows, Week #5", slug: "implementing-ai-native-workflows-week-5" },
+  { title: "The Moment AI Stops Feeling Like a Demo", slug: "the-moment-ai-stops-feeling-like-a-demo" },
+  { title: "Implementing AI-Native Workflows, Week #3", slug: "implementing-ai-native-workflows-week-3" },
 ];
 
 const posts = [
+  {
+    title: "First AI Workflow Leaves the Nest (Week #6 Report-out)",
+    image: "/images/blog/first-ai-workflow-leaves-the-nest.jpeg",
+    slug: "first-ai-workflow-leaves-the-nest",
+  },
+  {
+    title: "Your SaaS Problem Isn't SaaS. It's Workflow Sprawl",
+    image: "/images/blog/your-saas-problem-isnt-saas-its-workflow-sprawl.jpeg",
+    slug: "your-saas-problem-isnt-saas-its-workflow-sprawl",
+  },
+  {
+    title: "Implementing AI-Native Workflows, Week #5",
+    image: "/images/blog/implementing-ai-native-workflows-week-5.jpeg",
+    slug: "implementing-ai-native-workflows-week-5",
+  },
+  {
+    title: "The Moment AI Stops Feeling Like a Demo",
+    image: "/images/blog/the-moment-ai-stops-feeling-like-a-demo.jpeg",
+    slug: "the-moment-ai-stops-feeling-like-a-demo",
+  },
+  {
+    title: "Implementing AI-Native Workflows, Week #3",
+    image: "/images/blog/ai-native-onboarding-week-3.jpeg",
+    slug: "implementing-ai-native-workflows-week-3",
+  },
+  {
+    title: "AI-Native Onboarding Week #2",
+    image: "/images/blog/ai-native-onboarding-week-2.jpeg",
+    slug: "ai-native-onboarding-week-2",
+  },
+  {
+    title: "Letter from Chris, CEO of RevWisely",
+    image: "/images/blog/letter-from-chris-ceo.jpeg",
+    slug: "letter-from-chris-ceo",
+  },
+  {
+    title: "David Can Beat Goliath Again—This Time With AI",
+    image: "/images/blog/david-can-beat-goliath-again.jpeg",
+    slug: "david-can-beat-goliath-again",
+  },
+  {
+    title: "Salesforce Just Changed the Rules",
+    image: "/images/blog/salesforce-just-changed-the-rules.jpeg",
+    slug: "salesforce-just-changed-the-rules",
+  },
   {
     title: "The CRO–CEO Relationship Is Broken",
     image: "/images/blog/the-cro-ceo-relationship-is-broken.jpeg",

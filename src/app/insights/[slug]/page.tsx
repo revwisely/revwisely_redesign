@@ -11,6 +11,15 @@ const data = blogData as Record<string, {
 
 // Image map for posts that have hero images
 const imageMap: Record<string, string> = {
+  "how-to-choose-an-ai-workflow-transformation-partner": "/images/blog/how-to-choose-an-ai-workflow-transformation-partner.jpeg",
+  "first-ai-workflow-leaves-the-nest": "/images/blog/first-ai-workflow-leaves-the-nest.jpeg",
+  "your-saas-problem-isnt-saas-its-workflow-sprawl": "/images/blog/your-saas-problem-isnt-saas-its-workflow-sprawl.jpeg",
+  "implementing-ai-native-workflows-week-5": "/images/blog/implementing-ai-native-workflows-week-5.jpeg",
+  "the-moment-ai-stops-feeling-like-a-demo": "/images/blog/the-moment-ai-stops-feeling-like-a-demo.jpeg",
+  "implementing-ai-native-workflows-week-3": "/images/blog/ai-native-onboarding-week-3.jpeg",
+  "ai-native-onboarding-week-2": "/images/blog/ai-native-onboarding-week-2.jpeg",
+  "letter-from-chris-ceo": "/images/blog/letter-from-chris-ceo.jpeg",
+  "david-can-beat-goliath-again": "/images/blog/david-can-beat-goliath-again.jpeg",
   "salesforce-just-changed-the-rules": "/images/blog/salesforce-just-changed-the-rules.jpeg",
   "the-cro-ceo-relationship-is-broken": "/images/blog/the-cro-ceo-relationship-is-broken.jpeg",
   "the-new-builder-of-the-revenue-engine": "/images/blog/the-new-builder.jpeg",
