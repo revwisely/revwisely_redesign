@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "How to Choose an AI Workflow\nTransformation Partner",
-  image: "/images/blog/how-to-choose-an-ai-workflow-transformation-partner.jpeg",
-  slug: "how-to-choose-an-ai-workflow-transformation-partner",
+  title: "The Moment AI Stopped\nFeeling Like Software",
+  image: "/images/blog/the-moment-ai-stopped-feeling-like-software.jpeg",
+  slug: "the-moment-ai-stopped-feeling-like-software",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "How to Choose an AI Workflow Transformation Partner",
+    image: "/images/blog/how-to-choose-an-ai-workflow-transformation-partner.jpeg",
+    slug: "how-to-choose-an-ai-workflow-transformation-partner",
+  },
   {
     title: "First AI Workflow Leaves the Nest (Week #6 Report-out)",
     image: "/images/blog/first-ai-workflow-leaves-the-nest.jpeg",

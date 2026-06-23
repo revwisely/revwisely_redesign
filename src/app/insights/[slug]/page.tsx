@@ -11,6 +11,7 @@ const data = blogData as Record<string, {
 
 // Image map for posts that have hero images
 const imageMap: Record<string, string> = {
+  "the-moment-ai-stopped-feeling-like-software": "/images/blog/the-moment-ai-stopped-feeling-like-software.jpeg",
   "how-to-choose-an-ai-workflow-transformation-partner": "/images/blog/how-to-choose-an-ai-workflow-transformation-partner.jpeg",
   "first-ai-workflow-leaves-the-nest": "/images/blog/first-ai-workflow-leaves-the-nest.jpeg",
   "your-saas-problem-isnt-saas-its-workflow-sprawl": "/images/blog/your-saas-problem-isnt-saas-its-workflow-sprawl.jpeg",

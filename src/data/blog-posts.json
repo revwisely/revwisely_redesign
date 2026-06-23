@@ -1,4 +1,210 @@
 {
+  "the-moment-ai-stopped-feeling-like-software": {
+    "title": "The Moment AI Stopped Feeling Like Software (Week #7)",
+    "slug": "the-moment-ai-stopped-feeling-like-software",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The conversation changed this week."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the first six weeks of the engagement, most of our discussions revolved around building. We spent our time identifying workflows, defining requirements, documenting brand voice, training agents, testing outputs, and deploying infrastructure. Like most AI projects, the focus was largely technical. The questions were about prompts, models, integrations, workflows, and data sources."
+      },
+      {
+        "type": "paragraph",
+        "text": "Week #7 felt different."
+      },
+      {
+        "type": "paragraph",
+        "text": "Workflow #1 had been deployed into the client's environment, and for the first time the team was using it themselves rather than watching us demonstrate it. That may not sound like a significant milestone, but anyone who has implemented new technology knows exactly what happens next. The script ends. People stop following the planned use cases. They start clicking buttons, trying things, and seeing what happens."
+      },
+      {
+        "type": "paragraph",
+        "text": "That's exactly where this week's meeting started."
+      },
+      {
+        "type": "heading",
+        "text": "The First Real Test"
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the team members pasted a recent announcement about a large solar and storage project into the workflow and asked it to create a blog post. The request wasn't carefully engineered. It wasn't a polished demonstration. It was simply a real-world business event and a practical question: what can this thing do with it?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Almost immediately, the workflow started running."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then came another question."
+      },
+      {
+        "type": "paragraph",
+        "text": "How do I stop it?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The room laughed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Andrew had already launched the workflow and immediately realized he wanted to provide more context. The request wasn't wrong. It just wasn't as specific as he wanted it to be. Within minutes, the team was discussing how much direction the workflow needed, what data sources it could access, and whether it made sense to run the entire workflow or simply one of the agents in the six-agent workflow."
+      },
+      {
+        "type": "banner",
+        "text": "Companies don't transform through AI tools. They transform through AI-native workflows. The Maestro AI Framework helps organizations identify, build, and operationalize workflows that deliver measurable business value. Read the <a href='/case-study/ai-native-workflows' class='cursor-pointer font-semibold text-[var(--brand-red)] underline decoration-[var(--brand-red)]/30 underline-offset-4 transition-colors hover:text-[var(--dark-graphite)] hover:decoration-[var(--dark-graphite)]/30'>case study</a>, then {{Schedule a Call to Learn More}}."
+      },
+      {
+        "type": "paragraph",
+        "text": "The discussion looked remarkably similar to what happens whenever a new employee joins a team. Nobody expects a new hire to know exactly what to do on the first day. You learn how to communicate with them. You figure out what information they need. You discover where they excel and where they need additional guidance."
+      },
+      {
+        "type": "paragraph",
+        "text": "As the workflow generated outputs, the conversation became less about whether it worked and more about how the team wanted to use it. Could it support thought leadership? Could it help with business development? Could it turn market events into content faster than the team could produce on its own?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nobody was asking whether the technology was capable. They were starting to apply it in everyday tasks."
+      },
+      {
+        "type": "heading",
+        "text": "The Cost Question"
+      },
+      {
+        "type": "paragraph",
+        "text": "At one point, the discussion shifted to cost."
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the team members checked the dashboard and noted that an early run had cost about seventy cents. A few more runs followed. The total climbed. Someone checked again. Seven dollars."
+      },
+      {
+        "type": "paragraph",
+        "text": "What struck me was that nobody was really talking about dollars. They were talking about visibility."
+      },
+      {
+        "type": "paragraph",
+        "text": "Should we track this?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Should it be on a scorecard?"
+      },
+      {
+        "type": "paragraph",
+        "text": "What happens when we're running this every week?"
+      },
+      {
+        "type": "paragraph",
+        "text": "What happens when we're running it every day?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Two weeks ago, those questions would not have existed because there was nothing to measure. The workflow was still being built. Now it was running in production, and the team was starting to think about it the way they think about every other operational capability inside the business."
+      },
+      {
+        "type": "paragraph",
+        "text": "The conversation wasn't about cost control. It was about understanding how the workflow would behave once it became part of normal operations."
+      },
+      {
+        "type": "heading",
+        "text": "When Governance Arrives"
+      },
+      {
+        "type": "paragraph",
+        "text": "The most interesting part of the meeting started with a feature everyone liked."
+      },
+      {
+        "type": "paragraph",
+        "text": "The workflow could be trained. If a blog sounded too formal, the team could teach it to be more conversational. If paragraphs were too long, it could be trained to write differently. If certain language worked particularly well, that guidance could be incorporated into future outputs. Everyone immediately saw the value."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then somebody asked what would happen if multiple people started training the same workflow. The example that followed was memorable."
+      },
+      {
+        "type": "paragraph",
+        "text": "One person trains the dog to sit."
+      },
+      {
+        "type": "paragraph",
+        "text": "Another trains the dog to roll over."
+      },
+      {
+        "type": "paragraph",
+        "text": "The room laughed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then the questions started. What if different team members preferred different writing styles? What if someone trained the workflow in a direction that others disagreed with? Should there be one owner? Could you see a history of changes? Could you undo a training event?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The conversation moved quickly. A few minutes earlier we had been discussing content creation. Now the team was talking about permissions, ownership, accountability, and change history."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nobody had planned a governance discussion."
+      },
+      {
+        "type": "paragraph",
+        "text": "It simply appeared."
+      },
+      {
+        "type": "paragraph",
+        "text": "Looking back, that's probably not surprising. The moment something becomes useful, people start caring about who controls it."
+      },
+      {
+        "type": "heading",
+        "text": "The Workflow Started Feeling Like a Team"
+      },
+      {
+        "type": "paragraph",
+        "text": "As the meeting continued, I noticed something I hadn't expected. Nobody was talking about the workflow as software anymore. Instead, they were talking about it the way people talk about a team."
+      },
+      {
+        "type": "paragraph",
+        "text": "The workflow could create blog posts, LinkedIn content, newsletters, and supporting assets. It could work whenever needed. It could produce content faster than a traditional marketing department. Yet nobody viewed it as autonomous."
+      },
+      {
+        "type": "paragraph",
+        "text": "Everyone instinctively understood that it still needed management. Someone had to decide what content mattered. Someone had to prioritize projects. Someone had to review outputs. Someone had to provide feedback. Someone had to decide whether the results were good enough."
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the most interesting ideas to emerge from the discussion was training history. The team wanted visibility into who had trained the workflow, what changes had been made, and how those changes affected future outputs. The request wasn't driven by curiosity. It was driven by responsibility. If the workflow was going to become part of the business, people wanted to understand how it was evolving."
+      },
+      {
+        "type": "paragraph",
+        "text": "By this point, the conversation sounded far less like a software implementation and far more like a discussion about managing a growing team."
+      },
+      {
+        "type": "heading",
+        "text": "The Real Milestone"
+      },
+      {
+        "type": "paragraph",
+        "text": "Coming into Week #7, I assumed the milestone would be training. After all, getting Workflow #1 into the client's environment represented weeks of planning, design, development, testing, and refinement. It felt like the logical finish line."
+      },
+      {
+        "type": "paragraph",
+        "text": "By the end of the meeting, deployment barely felt like the story. The story was what happened after deployment. They started figuring out how to operate it. The questions were no longer about prompts, models, or infrastructure. The questions were about ownership, training, quality, governance, and outcomes."
+      },
+      {
+        "type": "paragraph",
+        "text": "Near the end of the meeting, Andrew made an observation that captured the shift perfectly. He described the workflow as an infinitely trainable marketing team that could work whenever needed."
+      },
+      {
+        "type": "paragraph",
+        "text": "The workflow was running. The agents were working. The technology was no longer the topic of discussion. The discussion had moved to how it will help transform their business."
+      },
+      {
+        "type": "cta",
+        "text": "Discover how we can help transform yours. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "how-to-choose-an-ai-workflow-transformation-partner": {
     "title": "How to Choose an AI Workflow Transformation Partner",
     "slug": "how-to-choose-an-ai-workflow-transformation-partner",
@@ -28,12 +234,32 @@
         "text": "This reality has important implications when selecting a consulting and implementation partner. The firm you choose will have a significant impact on whether your initiative produces measurable business value or becomes another expensive pilot project."
       },
       {
+        "type": "heading",
+        "text": "Three Red Flags to Watch For"
+      },
+      {
         "type": "paragraph",
-        "text": "If your organization is evaluating partners for an AI workflow transformation initiative, here are the ten most important criteria to consider."
+        "text": "If your organization is evaluating partners for an AI workflow transformation initiative, three warning signs deserve special attention."
+      },
+      {
+        "type": "paragraph",
+        "text": "The first is leading with models rather than business problems. If every conversation revolves around the latest AI technology rather than your operational challenges, the firm may be more interested in technology than in transformation."
+      },
+      {
+        "type": "paragraph",
+        "text": "The second is treating chatbots as a complete AI strategy. Chatbots can be useful, but they represent only a small fraction of the value AI can create. Workflow transformation is much broader."
+      },
+      {
+        "type": "paragraph",
+        "text": "The third is an inability to explain how the consulting firm uses AI internally. Partners that build AI-native workflows should be able to demonstrate how those workflows improve their own operations. If they cannot, it is reasonable to ask why."
+      },
+      {
+        "type": "paragraph",
+        "text": "Keeping this in mind, below are the ten most important criteria to consider."
       },
       {
         "type": "banner",
-        "text": "Companies don't transform through AI tools. They transform through AI-native workflows. The Maestro AI Framework helps organizations identify, build, and operationalize workflows that deliver measurable business value. Read the <a href='/case-study/ai-native-workflows' class='cursor-pointer font-semibold text-[var(--brand-red)] underline decoration-[var(--brand-red)]/30 underline-offset-4 transition-colors hover:text-[var(--dark-graphite)] hover:decoration-[var(--dark-graphite)]/30'>case study</a>, then {{Schedule a Call to Learn More}}."
+        "text": "The Maestro AI Framework helps organizations identify, build, and operationalize workflows that deliver measurable business value. {{Schedule a Call to Learn More}}"
       },
       {
         "type": "heading",
@@ -277,27 +503,7 @@
       },
       {
         "type": "heading",
-        "text": "Three Red Flags to Watch For"
-      },
-      {
-        "type": "paragraph",
-        "text": "While evaluating potential partners, three warning signs deserve special attention."
-      },
-      {
-        "type": "paragraph",
-        "text": "The first is leading with models rather than business problems. If every conversation revolves around the latest AI technology but not your operational challenges, the firm may be more interested in technology than transformation."
-      },
-      {
-        "type": "paragraph",
-        "text": "The second is treating chatbots as a complete AI strategy. Chatbots can be useful, but they represent only a small fraction of the value AI can create. Workflow transformation is much broader."
-      },
-      {
-        "type": "paragraph",
-        "text": "The third is an inability to explain how the consulting firm uses AI internally. Partners that build AI-native workflows should be able to demonstrate how those workflows improve their own operations. If they cannot, it is reasonable to ask why."
-      },
-      {
-        "type": "heading",
-        "text": "The Final Word"
+        "text": "An Important Decision"
       },
       {
         "type": "paragraph",
