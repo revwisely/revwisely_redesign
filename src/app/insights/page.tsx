@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "The Moment AI Stopped\nFeeling Like Software",
-  image: "/images/blog/the-moment-ai-stopped-feeling-like-software.jpeg",
-  slug: "the-moment-ai-stopped-feeling-like-software",
+  title: "The Future Belongs to\nAI Workflow Companies",
+  image: "/images/blog/the-future-belongs-to-ai-workflow-companies.jpeg",
+  slug: "the-future-belongs-to-ai-workflow-companies",
 };
 
 const sidebarPosts = [
@@ -22,9 +22,34 @@ const sidebarPosts = [
 
 const posts = [
   {
+    title: "The End of Lead Lists",
+    image: "/images/blog/the-end-of-lead-lists.jpeg",
+    slug: "the-end-of-lead-lists",
+  },
+  {
+    title: "When Meetings Start Doing the Work",
+    image: "/images/blog/when-meetings-start-doing-the-work.jpeg",
+    slug: "when-meetings-start-doing-the-work",
+  },
+  {
+    title: "Your Newest Team Member is Digital",
+    image: "/images/blog/your-newest-team-member-is-digital.jpeg",
+    slug: "your-newest-team-member-is-digital",
+  },
+  {
+    title: "AI Changed the Sales Job—Not the Salesperson",
+    image: "/images/blog/ai-changed-the-sales-job-not-the-salesperson.jpeg",
+    slug: "ai-changed-the-sales-job-not-the-salesperson",
+  },
+  {
     title: "How to Choose an AI Workflow Transformation Partner",
     image: "/images/blog/how-to-choose-an-ai-workflow-transformation-partner.jpeg",
     slug: "how-to-choose-an-ai-workflow-transformation-partner",
+  },
+  {
+    title: "The Moment AI Stopped Feeling Like Software (Week #7)",
+    image: "/images/blog/the-moment-ai-stopped-feeling-like-software.jpeg",
+    slug: "the-moment-ai-stopped-feeling-like-software",
   },
   {
     title: "First AI Workflow Leaves the Nest (Week #6 Report-out)",

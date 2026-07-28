@@ -1,13 +1,87 @@
 "use client";
 
-import { useRef } from "react";
-import { motion, useInView, useScroll, useTransform } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { AnimatePresence, motion, useInView, useScroll, useTransform } from "framer-motion";
 import ParticleCanvas from "@/components/ParticleCanvas";
 import { openCalendly } from "@/lib/calendly";
+
+// How long each testimonial stays before rotating to the next.
+const ROTATE_MS = 8000;
+
+type HeroTestimonial = {
+  quote: string;
+  name: string;
+  title: string;
+  linkedin: string;
+  image?: string;
+};
+
+const heroTestimonials: HeroTestimonial[] = [
+  {
+    quote: "They helped us accelerate sales while improving the unit economics of our business.",
+    name: "Barry Bunin",
+    title: "CEO and President",
+    linkedin: "https://www.linkedin.com/in/collaborativediscovery/",
+    image: "/images/testimonials/barry-bunin.jpg",
+  },
+  {
+    quote: "They showed us a better way to scale revenue with AI, instead of headcount.",
+    name: "Andrew DeMille",
+    title: "COO",
+    linkedin: "https://www.linkedin.com/in/andrewdemille/",
+    image: "/images/testimonials/andrew-demille.jpg",
+  },
+  {
+    quote: "The AI workflow they built is now part of how we operate every day.",
+    name: "Matt Maher Peterson",
+    title: "CTO",
+    linkedin: "https://www.linkedin.com/in/matt-maher-peterson-62780973/",
+    image: "/images/testimonials/matt-maher-peterson.jpg",
+  },
+  {
+    quote: "Unlike other firms, they didn't just add AI to our process—they redesigned the process itself.",
+    name: "Daniel Howard",
+    title: "CEO",
+    linkedin: "https://www.linkedin.com/in/danielbhoward/",
+    image: "/images/testimonials/daniel-howard.jpg",
+  },
+  {
+    quote: "Based on the results, I wish we'd put Maestro AI workflows into production six months ago.",
+    name: "Monty Hudon",
+    title: "SVP Business Development",
+    linkedin: "https://www.linkedin.com/in/montyhudson/",
+    image: "/images/testimonials/monty-hudon.jpg",
+  },
+  {
+    quote: "They helped us stop thinking about AI as a technology and start thinking about AI as a workforce system.",
+    name: "Martin Wilson",
+    title: "CEO",
+    linkedin: "https://www.linkedin.com/in/martinrexwilson/",
+    image: "/images/testimonials/martin-wilson.jpg",
+  },
+];
+
+function initials(name: string) {
+  const parts = name.trim().split(/\s+/);
+  const first = parts[0]?.[0] ?? "";
+  const last = parts.length > 1 ? parts[parts.length - 1][0] : "";
+  return (first + last).toUpperCase();
+}
 
 export default function HomeHeroSection() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
+  const [testimonialIndex, setTestimonialIndex] = useState(0);
+
+  // Auto-rotate the hero testimonial.
+  useEffect(() => {
+    const id = setInterval(() => {
+      setTestimonialIndex((i) => (i + 1) % heroTestimonials.length);
+    }, ROTATE_MS);
+    return () => clearInterval(id);
+  }, []);
+
+  const activeTestimonial = heroTestimonials[testimonialIndex];
 
   // Scroll-driven parallax: content drifts up + fades as user scrolls past
   const { scrollYProgress } = useScroll({
@@ -67,8 +141,7 @@ export default function HomeHeroSection() {
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.6, ease: [0.25, 0.1, 0.25, 1] }}
         >
-          We design revenue systems that scale — with AI built in
-          from day one.
+          We build AI-native workflows for companies with ambition.
         </motion.p>
 
         {/* CTA group */}
@@ -99,25 +172,50 @@ export default function HomeHeroSection() {
             animate={isInView ? { opacity: 1 } : {}}
             transition={{ duration: 0.5, delay: 1.1 }}
           >
-            30 minutes. No pitch deck. Just clarity on where your revenue engine can go.
+            30 minutes. No pitch deck. Just a clear path to real results.
           </motion.p>
         </motion.div>
-      </motion.div>
 
-      {/* Scroll indicator */}
-      <motion.div
-        className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2"
-        initial={{ opacity: 0 }}
-        animate={isInView ? { opacity: 1 } : {}}
-        transition={{ delay: 1.5, duration: 0.5 }}
-      >
+        {/* Rotating testimonial — sits just below the hero copy */}
         <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+          className="mx-auto mt-6 w-full max-w-[460px]"
+          initial={{ opacity: 0 }}
+          animate={isInView ? { opacity: 1 } : {}}
+          transition={{ delay: 1.5, duration: 0.6 }}
         >
-          <svg className="h-6 w-6 text-[var(--graphite)]/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
-          </svg>
+        <AnimatePresence mode="wait">
+          <motion.a
+            key={testimonialIndex}
+            href={activeTestimonial.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -8 }}
+            transition={{ duration: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
+            className="group flex items-center gap-3 rounded-3xl border border-[var(--light-gray)] bg-white/80 px-4 py-2.5 shadow-sm backdrop-blur transition-colors duration-300 hover:border-[var(--brand-red)]/40"
+          >
+            {activeTestimonial.image ? (
+              <img
+                src={activeTestimonial.image}
+                alt={activeTestimonial.name}
+                className="h-10 w-10 flex-shrink-0 rounded-full object-cover"
+              />
+            ) : (
+              <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-[var(--dark-graphite)] text-xs font-bold text-white">
+                {initials(activeTestimonial.name)}
+              </span>
+            )}
+            <span className="min-w-0 text-left">
+              <span className="line-clamp-2 text-sm italic leading-snug text-[var(--dark-graphite)]">
+                &ldquo;{activeTestimonial.quote}&rdquo;
+              </span>
+              <span className="mt-0.5 block truncate text-xs text-[var(--graphite)]">
+                {activeTestimonial.name} · {activeTestimonial.title}
+              </span>
+            </span>
+          </motion.a>
+        </AnimatePresence>
         </motion.div>
       </motion.div>
     </section>

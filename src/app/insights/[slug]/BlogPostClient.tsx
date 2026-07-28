@@ -8,9 +8,10 @@ interface BlogPostClientProps {
   title: string;
   content: { type: string; text: string }[];
   image: string | null;
+  video?: { src: string; poster: string } | null;
 }
 
-export default function BlogPostClient({ title, content, image }: BlogPostClientProps) {
+export default function BlogPostClient({ title, content, image, video }: BlogPostClientProps) {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -41,20 +42,37 @@ export default function BlogPostClient({ title, content, image }: BlogPostClient
           {title}
         </motion.h1>
 
-        {/* Hero image */}
-        {image && (
+        {/* Hero — video takes the still's place when present */}
+        {video ? (
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.7, delay: 0.1 }}
             className="mt-8 overflow-hidden rounded-2xl"
           >
-            <img
-              src={image}
-              alt={title}
+            <video
+              controls
+              preload="metadata"
+              poster={video.poster}
+              src={video.src}
               className="w-full object-cover"
             />
           </motion.div>
+        ) : (
+          image && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={isInView ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.7, delay: 0.1 }}
+              className="mt-8 overflow-hidden rounded-2xl"
+            >
+              <img
+                src={image}
+                alt={title}
+                className="w-full object-cover"
+              />
+            </motion.div>
+          )
         )}
 
         {/* Article body */}

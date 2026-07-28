@@ -52,6 +52,14 @@ export default function Footer() {
                   Maestro AI Revenue System&#8482;
                 </a>
               </li>
+              <li>
+                <a
+                  href="/outcome-pricing"
+                  className="text-sm text-[var(--graphite)] transition-colors duration-200 hover:text-[var(--brand-red)]"
+                >
+                  Outcome Pricing&#8482;
+                </a>
+              </li>
             </ul>
           </div>
 

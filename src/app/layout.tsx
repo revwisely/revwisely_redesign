@@ -13,6 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.revwisely.com"),
   title: "RevWisely | AI-Enabled Revenue Systems",
   description:
     "RevWisely designs AI-native revenue systems that scale on structure, not headcount. Creators of the Maestro AI Revenue System.",

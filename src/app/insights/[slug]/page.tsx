@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import blogData from "@/data/blog-posts.json";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -11,6 +12,10 @@ const data = blogData as Record<string, {
 
 // Image map for posts that have hero images
 const imageMap: Record<string, string> = {
+  "the-end-of-lead-lists": "/images/blog/the-end-of-lead-lists.jpeg",
+  "when-meetings-start-doing-the-work": "/images/blog/when-meetings-start-doing-the-work.jpeg",
+  "your-newest-team-member-is-digital": "/images/blog/your-newest-team-member-is-digital.jpeg",
+  "ai-changed-the-sales-job-not-the-salesperson": "/images/blog/ai-changed-the-sales-job-not-the-salesperson.jpeg",
   "the-moment-ai-stopped-feeling-like-software": "/images/blog/the-moment-ai-stopped-feeling-like-software.jpeg",
   "how-to-choose-an-ai-workflow-transformation-partner": "/images/blog/how-to-choose-an-ai-workflow-transformation-partner.jpeg",
   "first-ai-workflow-leaves-the-nest": "/images/blog/first-ai-workflow-leaves-the-nest.jpeg",
@@ -158,8 +163,69 @@ const imageMap: Record<string, string> = {
   "the-risk-of-doing-nothing-is-bigger-than-you-think": "/images/blog/the-risk-of-doing-nothing-is-bigger-than-you-think.jpeg",
 };
 
+// Posts whose hero is a click-to-play video instead of a still image.
+const videoMap: Record<
+  string,
+  { src: string; poster: string; duration: string; uploadDate: string }
+> = {
+  "the-future-belongs-to-ai-workflow-companies": {
+    src: "/videos/ai-workflow-hero.mp4",
+    poster: "/images/ai-workflow-hero-poster.jpg",
+    duration: "PT27S",
+    uploadDate: "2026-07-27",
+  },
+};
+
+// Share/Open Graph image per slug. Falls back to the post's hero still.
+// Video posts have no imageMap entry, so their share image lives here.
+const shareImageMap: Record<string, string> = {
+  "the-future-belongs-to-ai-workflow-companies":
+    "/images/blog/the-future-belongs-to-ai-workflow-companies.jpeg",
+};
+
 export function generateStaticParams() {
   return Object.keys(data).map((slug) => ({ slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const post = data[slug];
+
+  if (!post) {
+    return { title: "Post not found | RevWisely" };
+  }
+
+  const firstParagraph = post.content.find((b) => b.type === "paragraph")?.text ?? "";
+  const description =
+    firstParagraph.length > 160
+      ? `${firstParagraph.slice(0, 157).trimEnd()}…`
+      : firstParagraph;
+
+  const shareImage = shareImageMap[slug] || imageMap[slug] || null;
+  const title = `${post.title} | RevWisely`;
+
+  return {
+    title,
+    description,
+    alternates: { canonical: `/insights/${slug}` },
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description,
+      url: `/insights/${slug}`,
+      ...(shareImage ? { images: [{ url: shareImage }] } : {}),
+    },
+    twitter: {
+      card: shareImage ? "summary_large_image" : "summary",
+      title: post.title,
+      description,
+      ...(shareImage ? { images: [shareImage] } : {}),
+    },
+  };
 }
 
 export default async function BlogPostPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -184,11 +250,36 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
   }
 
   const image = imageMap[slug] || null;
+  const videoMeta = videoMap[slug] || null;
+  const video = videoMeta ? { src: videoMeta.src, poster: videoMeta.poster } : null;
+
+  const videoJsonLd = videoMeta
+    ? {
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        name: post.title,
+        thumbnailUrl: videoMeta.poster,
+        contentUrl: videoMeta.src,
+        duration: videoMeta.duration,
+        uploadDate: videoMeta.uploadDate,
+      }
+    : null;
 
   return (
     <>
+      {videoJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(videoJsonLd) }}
+        />
+      )}
       <Navbar />
-      <BlogPostClient title={post.title} content={post.content} image={image} />
+      <BlogPostClient
+        title={post.title}
+        content={post.content}
+        image={image}
+        video={video}
+      />
       <Footer />
     </>
   );

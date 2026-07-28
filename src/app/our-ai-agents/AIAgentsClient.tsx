@@ -223,6 +223,81 @@ const teams = [
       },
     ],
   },
+  {
+    label: "Maestro Video Studio",
+    agents: [
+      {
+        num: 38,
+        name: "Director",
+        desc: "Reads the source content and writes the treatment—core idea, arc, runtime—then picks the style that fits the message.",
+      },
+      {
+        num: 39,
+        name: "Editor",
+        desc: "Builds the boardomatic with real timing for every beat, enforcing a story-spine so nothing floats.",
+      },
+      {
+        num: 40,
+        name: "Designer",
+        desc: "Produces fully designed styleframes of the hero moment, rendering two directions for a quick human A-or-B pick.",
+      },
+      {
+        num: 41,
+        name: "Animator",
+        desc: "Builds the composition under a strict contract—one motion system, real numbers from the content, no invented figures.",
+      },
+      {
+        num: 42,
+        name: "Look Critic",
+        desc: "Reviews brand compliance and flags the AI-slop tells—static frames, style drift, and empty decoration.",
+      },
+      {
+        num: 43,
+        name: "Timing Critic",
+        desc: "Checks that every beat earns its seconds and that the hook lands within the first two seconds.",
+      },
+      {
+        num: 44,
+        name: "Finisher",
+        desc: "Handles audio, renders the final file, verifies it against delivery specs, and cuts platform variants for each channel.",
+      },
+    ],
+  },
+  {
+    label: "Maestro PM",
+    agents: [
+      {
+        num: 45,
+        name: "Transcript Extractor",
+        desc: "Reads the meeting transcript and pulls out the decisions, commitments, blockers, and dependencies discussed.",
+      },
+      {
+        num: 46,
+        name: "Work Prioritizer",
+        desc: "Separates real commitments from passing ideas, maps dependencies, and gives each item an owner and priority.",
+      },
+      {
+        num: 47,
+        name: "CRM Executor",
+        desc: "Writes the meeting's outcomes into the CRM so the system of record reflects what the room decided.",
+      },
+      {
+        num: 48,
+        name: "Task Executor",
+        desc: "Creates internal tasks in the system of record and dedupes against open work so recurring topics update one item.",
+      },
+      {
+        num: 49,
+        name: "Follow-up Drafter",
+        desc: "Drafts the follow-up communications from the meeting and holds them for a human to review before anything sends.",
+      },
+      {
+        num: 50,
+        name: "Loop Reporter",
+        desc: "Assembles status from the live state of the work, so the next meeting starts from current reality.",
+      },
+    ],
+  },
 ];
 
 /* ─── Reusable hook ─── */
