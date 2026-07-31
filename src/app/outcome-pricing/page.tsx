@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Outcome Pricing™ | RevWisely",
   description:
     "RevWisely created Outcome Pricing™ so customers pay for results, not time. Payments are tied to production-ready AI workflows delivered — not billable hours.",
+  alternates: { canonical: "/outcome-pricing" },
 };
 
 export default function OutcomePricingPage() {

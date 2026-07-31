@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Case Study: Lowering Cost of Sales at a Life Sciences Software Company | RevWisely",
   description:
     "How RevWisely reduced sales expense from 43% to 28% of revenue and increased profitability 5x by redesigning the revenue system at a life sciences software company.",
+  alternates: { canonical: "/case-study/lowering-cost-of-sales" },
 };
 
 export default function LoweringCostOfSalesPage() {

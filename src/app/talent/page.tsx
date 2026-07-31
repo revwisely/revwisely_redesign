@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Talent | RevWisely",
   description:
     "Join a close-knit team of strategic doers. We partner with senior consultants, analysts, and engineers who want to do meaningful work inside complex, high-impact client environments.",
+  alternates: { canonical: "/talent" },
 };
 
 export default function TalentPage() {

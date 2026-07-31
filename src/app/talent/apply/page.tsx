@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Consultant Profile | RevWisely",
   description:
     "Complete your consultant profile to join the RevWisely talent community. We match senior practitioners to high-impact client engagements.",
+  alternates: { canonical: "/talent/apply" },
 };
 
 export default function ApplyPage() {

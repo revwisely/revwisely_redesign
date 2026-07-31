@@ -11,16 +11,19 @@ import MaestroDeliverablesSection from "@/components/maestro/MaestroDeliverables
 import WhoIsForSection from "@/components/maestro/WhoIsForSection";
 import MaestroCTA from "@/components/maestro/MaestroCTA";
 import Footer from "@/components/Footer";
+import MaestroProductSchema from "@/components/schema/MaestroProductSchema";
 
 export const metadata: Metadata = {
   title: "Maestro AI Revenue System | RevWisely",
   description:
     "Signal detection, intelligence, and execution working as one system across your entire revenue operation. Built for companies that want to scale revenue without scaling complexity.",
+  alternates: { canonical: "/maestro" },
 };
 
 export default function MaestroPage() {
   return (
     <>
+      <MaestroProductSchema />
       <Navbar />
       <MaestroHero />
       <SetupSection />

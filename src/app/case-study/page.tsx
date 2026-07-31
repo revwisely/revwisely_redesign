@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Case Studies | RevWisely",
   description:
     "Real engagements where RevWisely partnered with companies to redesign operations, build systems, and deliver measurable impact.",
+  alternates: { canonical: "/case-study" },
 };
 
 export default function CaseStudyPage() {

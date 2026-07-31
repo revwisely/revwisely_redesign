@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Case Study: Moving to AI-Native Workflows | RevWisely",
   description:
     "How RevWisely cut operational costs 30–50% and accelerated workflows 2–5x by redesigning revenue operations as a unified, AI-native system.",
+  alternates: { canonical: "/case-study/ai-native-workflows" },
 };
 
 export default function AINativeWorkflowsPage() {

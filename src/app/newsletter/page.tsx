@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Newsletter | RevWisely",
   description:
     "Subscribe to the RevWisely newsletter for insights on AI-powered revenue systems, RevOps, and go-to-market strategy.",
+  alternates: { canonical: "/newsletter" },
 };
 
 export default function NewsletterPage() {

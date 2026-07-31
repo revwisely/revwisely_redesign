@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   title: "Revenue Infrastructure | RevWisely",
   description:
     "We design and deploy the RevOps foundation inside your business. Sales processes, CRM, automation, tech stack, and dashboards — all in production, all running.",
+  alternates: { canonical: "/revenue-architecture" },
 };
 
 export default function RevenueArchitecturePage() {

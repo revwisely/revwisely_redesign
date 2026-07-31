@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   title: "Fractional Sales Leadership | RevWisely",
   description:
     "Executive-level revenue leadership embedded in your business without the full-time hire. A CRO in the system, not on the sideline.",
+  alternates: { canonical: "/fractional-leadership" },
 };
 
 export default function FractionalLeadershipPage() {
