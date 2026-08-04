@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "The Future Belongs to\nAI Workflow Companies",
-  image: "/images/blog/the-future-belongs-to-ai-workflow-companies.jpeg",
-  slug: "the-future-belongs-to-ai-workflow-companies",
+  title: "The AI Consulting Model Is Broken.\nHere Is What Replaces It.",
+  image: "/images/blog/the-ai-consulting-model-is-broken.jpeg",
+  slug: "the-ai-consulting-model-is-broken",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "The Future Belongs to AI Workflow Companies",
+    image: "/images/blog/the-future-belongs-to-ai-workflow-companies.jpeg",
+    slug: "the-future-belongs-to-ai-workflow-companies",
+  },
   {
     title: "The End of Lead Lists",
     image: "/images/blog/the-end-of-lead-lists.jpeg",
