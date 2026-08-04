@@ -31,6 +31,12 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+        {/* RB2B visitor tracking — must be a literal <script> in <head> so RB2B can validate it */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `!function(key) {if (window.reb2b) return;window.reb2b = {loaded: true};var s = document.createElement("script");s.async = true;s.src = "https://b2bjsstore.s3.us-west-2.amazonaws.com/b/" + key + "/" + key + ".js.gz";document.getElementsByTagName("script")[0].parentNode.insertBefore(s, document.getElementsByTagName("script")[0]);}("W7N850HV9EN1");`,
+          }}
+        />
       </head>
       <body className={`${inter.variable} antialiased`}>
         {children}
@@ -44,9 +50,6 @@ export default function RootLayout({
             t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
           })(window, document, "clarity", "script", "w3xzth359i");`}
-        </Script>
-        <Script id="reb2b" strategy="afterInteractive">
-          {`!function(key) {if (window.reb2b) return;window.reb2b = {loaded: true};var s = document.createElement("script");s.async = true;s.src = "https://b2bjsstore.s3.us-west-2.amazonaws.com/b/" + key + "/" + key + ".js.gz";document.getElementsByTagName("script")[0].parentNode.insertBefore(s, document.getElementsByTagName("script")[0]);}("W7N850HV9EN1");`}
         </Script>
       </body>
     </html>
