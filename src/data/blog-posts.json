@@ -1,4 +1,254 @@
 {
+  "how-to-make-ai-videos-that-dont-look-like-ai": {
+    "title": "How to Make AI Videos That Don’t Look Like AI",
+    "slug": "how-to-make-ai-videos-that-dont-look-like-ai",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Our audience is mostly CxOs and functional leaders, but every now and then we like to get pretty far into the weeds. This is one of those newsletters. Today’s rabbit hole: AI-generated video."
+      },
+      {
+        "type": "paragraph",
+        "text": "For starters, AI has made video production remarkably easy. Give a model a prompt and, within minutes, you can have something that looks polished enough to put in a presentation, send to a prospect, or post on LinkedIn. And yet, scroll through almost any feed and something strange becomes apparent: the videos all look the same."
+      },
+      {
+        "type": "paragraph",
+        "text": "The fonts are familiar. The gradients drift in the same way. Objects float around the screen. Everything has the same synthetic gloss and carefully calibrated polish. The logos are different, but the work often isn’t."
+      },
+      {
+        "type": "paragraph",
+        "text": "It’s tempting to conclude that the models simply aren’t good enough yet. Maybe the next generation will be more creative. Maybe the next model will understand brand better. Maybe six months from now, AI-generated video will finally stop looking like AI-generated video."
+      },
+      {
+        "type": "paragraph",
+        "text": "I think that’s the wrong diagnosis. The problem isn’t primarily the model. It’s the brief."
+      },
+      {
+        "type": "heading",
+        "text": "The Middle of Everything"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ask an AI model to “create a modern launch video for our new product” and you’ve given it very little that distinguishes your company from every other company asking the same question. So the model does what it is designed to do: it reaches for the middle of everything it has seen."
+      },
+      {
+        "type": "paragraph",
+        "text": "The middle is safe. It’s familiar. It’s statistically likely to be acceptable. And because everyone is prompting the same models with roughly the same vague instructions, everyone gets roughly the same answer."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is not really an AI problem. It’s a briefing problem."
+      },
+      {
+        "type": "paragraph",
+        "text": "For decades, creative organizations have understood that the quality of the output depends heavily on the quality of the direction that precedes it. A director doesn’t walk onto a set and say, “Make something good.” A creative director doesn’t hand a designer a blank page and say, “Make it feel premium.” There are decisions that happen before the work begins."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI has simply exposed how often we skip those decisions when we work with machines."
+      },
+      {
+        "type": "heading",
+        "text": "We’ve Already Solved This Problem for Writing"
+      },
+      {
+        "type": "paragraph",
+        "text": "The interesting thing is that we already know how to solve this. We’ve been doing it with words for years."
+      },
+      {
+        "type": "paragraph",
+        "text": "Established brands have a voice and tone guide. They define the words they use, the words they avoid, how formal they sound, how they talk to customers and what they stand for. Companies then give those rules to their AI systems, either by putting them into prompts or, increasingly, by creating persistent instructions that every piece of content can reference."
+      },
+      {
+        "type": "paragraph",
+        "text": "In other words, we’ve turned the brand into a system that the AI can actually use."
+      },
+      {
+        "type": "paragraph",
+        "text": "Video hasn’t received the same treatment. Instead, the typical workflow is still remarkably primitive: “Make a product video. Make it engaging. Make it modern. Make it on brand.” Then everyone wonders why the output looks generic."
+      },
+      {
+        "type": "heading",
+        "text": "What a Director Actually Decides"
+      },
+      {
+        "type": "paragraph",
+        "text": "A director makes hundreds of decisions before the first frame is shot. What world does this story live in? What does the environment feel like? What kind of typography belongs here? Where does the accent color appear, and where should it never appear? How quickly should the story move? What should the audience notice first? What should the brand sound like?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Those decisions are the distance between a piece of branded storytelling and a nicely rendered product demo. They are also exactly the decisions that a one-minute prompt tends to skip."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is why I think AI actually makes creative direction more important, not less. As the cost of producing content falls, the scarce resource moves upstream. The machine can increasingly handle the production. Someone still needs to decide what is worth producing."
+      },
+      {
+        "type": "heading",
+        "text": "The Brand Needs to Become a System"
+      },
+      {
+        "type": "paragraph",
+        "text": "The answer isn’t necessarily a longer prompt. It’s a persistent system."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine that your brand had a single source of truth for motion. Not a 40-page PDF that someone occasionally opens, but a working set of instructions that the production workflow actually reads every time it creates something."
+      },
+      {
+        "type": "paragraph",
+        "text": "It might define the visual world, typography, color rules, motion style, pacing, audio and the kinds of visual treatments that belong to the brand. Those decisions are made once, then inherited by every subsequent piece of content."
+      },
+      {
+        "type": "paragraph",
+        "text": "That’s a very different model from asking an AI to rediscover your brand every time you create a video. It’s the difference between prompting for a brand and building the brand into the workflow."
+      },
+      {
+        "type": "paragraph",
+        "text": "And that distinction matters beyond video. The same principle applies whenever AI is repeatedly asked to create something that needs to feel consistent with what came before it."
+      },
+      {
+        "type": "heading",
+        "text": "The Styleframe Is More Important Than the Render"
+      },
+      {
+        "type": "paragraph",
+        "text": "There’s another lesson from traditional production that becomes even more valuable in an AI world: don’t wait until the video is finished to decide whether it looks right."
+      },
+      {
+        "type": "paragraph",
+        "text": "Render the still first. Give people two directions. Pick one. Then animate it."
+      },
+      {
+        "type": "paragraph",
+        "text": "That sounds like a small process change, but it changes the economics of creative work. A bad creative decision caught in a still costs almost nothing. A bad creative decision discovered after a 60-second video has been rendered costs the render, the review cycle, the revisions and everyone’s time."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI makes this particularly powerful because generating alternatives is cheap. You can explore multiple visual directions without committing to the production of any of them. The mistake isn’t generating too many options. The mistake is animating the wrong option."
+      },
+      {
+        "type": "heading",
+        "text": "Consistency Is Not Sameness"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is another trap that appears once companies start using AI at scale. They find a visual style that works and then repeat it everywhere. As a result, the second video looks like the first. The fifth looks like the second. By the tenth, the brand has consistency, but no variety."
+      },
+      {
+        "type": "paragraph",
+        "text": "That’s not really a brand system. It’s a template."
+      },
+      {
+        "type": "paragraph",
+        "text": "A good brand creates recognizable consistency while leaving room for creative variation. One video might be typography-led. Another might be cinematic. Another might focus on product interaction. Another might be almost entirely motion graphics."
+      },
+      {
+        "type": "paragraph",
+        "text": "The underlying brand remains recognizable because the important things stay fixed. The composition doesn’t have to. The pacing doesn’t have to. The creative treatment doesn’t have to. The goal is for every piece to look like it belongs to the same company."
+      },
+      {
+        "type": "heading",
+        "text": "The Bigger Shift: From Prompts to Workflows"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is why I think the conversation about AI is gradually moving somewhere more interesting."
+      },
+      {
+        "type": "paragraph",
+        "text": "We’ve spent the last few years learning how to prompt. We’re now learning that prompting isn’t the same thing as building an AI workflow."
+      },
+      {
+        "type": "paragraph",
+        "text": "A prompt is an instruction. A workflow is a system."
+      },
+      {
+        "type": "paragraph",
+        "text": "A good AI workflow carries context forward. It establishes standards. It makes decisions at the right points. It introduces quality gates. It learns from previous work. Most importantly, it gives the AI the information it needs to make better decisions instead of asking the model to reconstruct that context from scratch every time."
+      },
+      {
+        "type": "paragraph",
+        "text": "The traditional model of AI-assisted work looks something like this:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Human → prompt → AI → output"
+      },
+      {
+        "type": "paragraph",
+        "text": "The more powerful model is closer to:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Context → workflow → AI → decision → output → learning"
+      },
+      {
+        "type": "paragraph",
+        "text": "That distinction matters enormously because the value of AI isn’t simply that it can create something in five minutes that used to take five hours. The bigger opportunity is that we can redesign the five-hour process itself."
+      },
+      {
+        "type": "heading",
+        "text": "This Is What AI-Native Actually Means"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the distinction we care about at Revwisely."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI-assisted work takes an existing process and adds AI to it. AI-native work starts with a different question: If AI could do everything it is capable of doing today, how would we design this workflow from scratch? This is the more interesting question."
+      },
+      {
+        "type": "paragraph",
+        "text": "It changes where humans spend their time. It changes where decisions happen. It changes what needs to be documented. It changes what gets automated. And, importantly, it changes what information the AI needs to carry from one step to the next."
+      },
+      {
+        "type": "paragraph",
+        "text": "The video example makes the concept easy to see. If the AI doesn’t know what your brand looks like, it will make something generic. But the same problem exists everywhere."
+      },
+      {
+        "type": "paragraph",
+        "text": "A sales AI that doesn’t understand your qualification standards produces generic outreach. A marketing AI that doesn’t understand your positioning produces generic content. A RevOps AI that doesn’t understand your operating rules produces generic recommendations."
+      },
+      {
+        "type": "paragraph",
+        "text": "In each case, the instinct is to blame the model. Often, the better question is: What did we fail to put into the workflow?"
+      },
+      {
+        "type": "heading",
+        "text": "The New Creative Advantage"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI is rapidly making production less scarce. Anyone can generate a video. Anyone can generate an image. Anyone can write a first draft. Anyone can create a presentation."
+      },
+      {
+        "type": "paragraph",
+        "text": "As the cost of production approaches zero, the competitive advantage moves somewhere else. It moves upstream — to taste, judgment, context, systems and the ability to know what should happen before the machine starts generating."
+      },
+      {
+        "type": "paragraph",
+        "text": "That’s why I don’t think the future belongs to the companies with the best models."
+      },
+      {
+        "type": "paragraph",
+        "text": "The models will keep getting better. They will become more capable, more multimodal and more autonomous. But if everyone has access to roughly the same underlying intelligence, access to the model itself becomes less of a differentiator."
+      },
+      {
+        "type": "paragraph",
+        "text": "The differentiator becomes what you build around it."
+      },
+      {
+        "type": "paragraph",
+        "text": "The AI may create the output. The workflow determines whether the output is actually worth having."
+      },
+      {
+        "type": "cta",
+        "text": "Discover how we can help you transform your business. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "the-ai-consulting-model-is-broken": {
     "title": "The AI Consulting Model Is Broken. Here Is What Replaces It.",
     "slug": "the-ai-consulting-model-is-broken",

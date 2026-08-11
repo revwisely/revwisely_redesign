@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "The AI Consulting Model Is Broken.\nHere Is What Replaces It.",
-  image: "/images/blog/the-ai-consulting-model-is-broken.jpeg",
-  slug: "the-ai-consulting-model-is-broken",
+  title: "How to Make AI Videos\nThat Don’t Look Like AI",
+  image: "/images/blog/how-to-make-ai-videos-that-dont-look-like-ai.jpeg",
+  slug: "how-to-make-ai-videos-that-dont-look-like-ai",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "The AI Consulting Model Is Broken. Here Is What Replaces It.",
+    image: "/images/blog/the-ai-consulting-model-is-broken.jpeg",
+    slug: "the-ai-consulting-model-is-broken",
+  },
   {
     title: "The Future Belongs to AI Workflow Companies",
     image: "/images/blog/the-future-belongs-to-ai-workflow-companies.jpeg",
