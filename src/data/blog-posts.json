@@ -16,6 +16,10 @@
         "text": "The fonts are familiar. The gradients drift in the same way. Objects float around the screen. Everything has the same synthetic gloss and carefully calibrated polish. The logos are different, but the work often isn’t."
       },
       {
+        "type": "banner",
+        "text": "We turned the process in this post into video-direction, a free plugin for Claude Code that acts as the director for your brand videos. One 15-minute brand interview writes your motion brand, and every video after that inherits it. <a href=\"https://www.magnetiz.ai/video-direction.html\">Get the plugin</a>."
+      },
+      {
         "type": "paragraph",
         "text": "It’s tempting to conclude that the models simply aren’t good enough yet. Maybe the next generation will be more creative. Maybe the next model will understand brand better. Maybe six months from now, AI-generated video will finally stop looking like AI-generated video."
       },

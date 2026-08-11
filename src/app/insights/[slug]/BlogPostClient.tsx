@@ -97,7 +97,7 @@ export default function BlogPostClient({ title, content, image, video }: BlogPos
               const parts = block.text.split(/\{\{(.+?)\}\}/);
               return (
                 <div key={i} className="my-10 rounded-2xl border border-[var(--brand-red)]/20 bg-[var(--brand-red-light)] p-8">
-                  <p className="text-base leading-relaxed text-[var(--dark-graphite)]">
+                  <p className="text-base leading-relaxed text-[var(--dark-graphite)] [&_a]:font-semibold [&_a]:text-[var(--brand-red)] [&_a]:underline [&_a]:decoration-[var(--brand-red)]/30 [&_a]:underline-offset-4 [&_a]:transition-colors [&_a:hover]:text-[var(--dark-graphite)] [&_a:hover]:decoration-[var(--dark-graphite)]/30">
                     {parts.map((part, j) =>
                       j % 2 === 1 ? (
                         <a
@@ -149,7 +149,7 @@ export default function BlogPostClient({ title, content, image, video }: BlogPos
             return (
               <p
                 key={i}
-                className="mb-5 text-base leading-relaxed text-[var(--graphite)]"
+                className="mb-5 text-base leading-relaxed text-[var(--graphite)] [&_a]:font-semibold [&_a]:text-[var(--brand-red)] [&_a]:underline [&_a]:decoration-[var(--brand-red)]/30 [&_a]:underline-offset-4 [&_a]:transition-colors [&_a:hover]:text-[var(--dark-graphite)] [&_a:hover]:decoration-[var(--dark-graphite)]/30"
                 dangerouslySetInnerHTML={{ __html: block.text }}
               />
             );
