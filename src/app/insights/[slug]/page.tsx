@@ -12,7 +12,7 @@ const data = blogData as Record<string, {
 
 // Image map for posts that have hero images
 const imageMap: Record<string, string> = {
-  "how-to-make-ai-videos-that-dont-look-like-ai": "/images/blog/how-to-make-ai-videos-that-dont-look-like-ai.jpeg",
+  "stop-training-people-to-use-ai": "/images/blog/stop-training-people-to-use-ai.jpeg",
   "the-ai-consulting-model-is-broken": "/images/blog/the-ai-consulting-model-is-broken.jpeg",
   "the-end-of-lead-lists": "/images/blog/the-end-of-lead-lists.jpeg",
   "when-meetings-start-doing-the-work": "/images/blog/when-meetings-start-doing-the-work.jpeg",
@@ -176,6 +176,13 @@ const videoMap: Record<
     duration: "PT27S",
     uploadDate: "2026-07-27",
   },
+  // Poster is the post's original still, so the insights card and the post hero match.
+  "how-to-make-ai-videos-that-dont-look-like-ai": {
+    src: "/videos/plugin-capability-reel.mp4",
+    poster: "/images/blog/how-to-make-ai-videos-that-dont-look-like-ai.jpeg",
+    duration: "PT42S",
+    uploadDate: "2026-08-12",
+  },
 };
 
 // Share/Open Graph image per slug. Falls back to the post's hero still.
@@ -183,6 +190,8 @@ const videoMap: Record<
 const shareImageMap: Record<string, string> = {
   "the-future-belongs-to-ai-workflow-companies":
     "/images/blog/the-future-belongs-to-ai-workflow-companies.jpeg",
+  "how-to-make-ai-videos-that-dont-look-like-ai":
+    "/images/blog/how-to-make-ai-videos-that-dont-look-like-ai.jpeg",
 };
 
 export function generateStaticParams() {

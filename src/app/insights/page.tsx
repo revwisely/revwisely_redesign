@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "How to Make AI Videos\nThat Don’t Look Like AI",
-  image: "/images/blog/how-to-make-ai-videos-that-dont-look-like-ai.jpeg",
-  slug: "how-to-make-ai-videos-that-dont-look-like-ai",
+  title: "Stop Training People\nto Use AI",
+  image: "/images/blog/stop-training-people-to-use-ai.jpeg",
+  slug: "stop-training-people-to-use-ai",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "How to Make AI Videos That Don’t Look Like AI",
+    image: "/images/blog/how-to-make-ai-videos-that-dont-look-like-ai.jpeg",
+    slug: "how-to-make-ai-videos-that-dont-look-like-ai",
+  },
   {
     title: "The AI Consulting Model Is Broken. Here Is What Replaces It.",
     image: "/images/blog/the-ai-consulting-model-is-broken.jpeg",

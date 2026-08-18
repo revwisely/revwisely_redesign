@@ -1,4 +1,170 @@
 {
+  "stop-training-people-to-use-ai": {
+    "title": "Stop Training People to Use AI",
+    "slug": "stop-training-people-to-use-ai",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The companies getting AI adoption right aren't teaching employees a new tool. They're teaching them a new way to work."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a familiar scene playing out inside companies right now. Someone decides the organization needs to get serious about AI. Licenses are purchased. Workshops are scheduled. Employees learn how to prompt, summarize meetings, research prospects, draft emails, and create content. People leave impressed, perhaps even a little amazed by what the technology can do."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then Monday morning arrives. The sales meeting runs exactly the way it did before. Marketing follows the same content process. Customer success updates the CRM the same way. RevOps produces the same reports. The tools have changed, but the work hasn't."
+      },
+      {
+        "type": "paragraph",
+        "text": "Six months later, leadership starts asking an uncomfortable question: Why hasn't all this AI produced much beyond faster emails and better meeting summaries?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The answer may be that the training worked perfectly. People learned how to use AI. They just weren't taught how to work differently because AI exists."
+      },
+      {
+        "type": "heading",
+        "text": "We Trained for the Wrong Thing"
+      },
+      {
+        "type": "paragraph",
+        "text": "For most of the software era, training was relatively straightforward. A company bought Salesforce, HubSpot, Gong, or another application, and employees needed to learn where to click, what to enter, and how the software fit into the process they already followed. The software supported the work. It didn't fundamentally participate in it."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI is different. Consider a salesperson who traditionally begins the day figuring out which accounts deserve attention. She checks Salesforce, scans LinkedIn, looks through recent emails, reviews intent data, perhaps asks around. Eventually, she constructs a list."
+      },
+      {
+        "type": "paragraph",
+        "text": "Now imagine an AI workflow doing much of that overnight. It monitors thousands of signals, notices that a dormant account has hired a new executive, detects several visits to the pricing page, finds a relevant funding announcement, reviews previous interactions, and puts the account near the top of tomorrow morning's list."
+      },
+      {
+        "type": "paragraph",
+        "text": "The salesperson no longer has to find the signal, but she has a new problem. What does the signal mean? Why did the system prioritize this account? Should she trust it? What action should she take? When should experience override the machine?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Her job hasn't simply become faster. Her job has changed. And that distinction explains why so much AI training misses the mark."
+      },
+      {
+        "type": "heading",
+        "text": "Knowing AI Isn't the Same as Working With It"
+      },
+      {
+        "type": "paragraph",
+        "text": "We've spent the past few years teaching people how to talk to machines. Write a better prompt. Give the model more context. Assign it a role. Ask it to reason through the problem. Check the output. Those are useful skills. Increasingly, they're also table stakes."
+      },
+      {
+        "type": "paragraph",
+        "text": "The harder skill is learning how to operate when the machine is already doing part of the work. A customer success manager may no longer need to listen to a recording, write a summary, identify commitments, update CRM, and flag possible churn risk. An AI workflow can potentially handle much of that."
+      },
+      {
+        "type": "paragraph",
+        "text": "But the CSM still needs to know whether the risk signal is meaningful. The system may notice that a customer hasn't logged in recently. The CSM may know they're in the middle of a planned implementation pause. The machine has information; the human has context. The value comes from knowing how the two should work together."
+      },
+      {
+        "type": "paragraph",
+        "text": "You don't learn that from a two-hour AI workshop. You learn it by doing the work."
+      },
+      {
+        "type": "heading",
+        "text": "The Sequence Is Backward"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most companies follow a familiar sequence when rolling out AI: buy the technology, train everyone, encourage experimentation, and hope the workflows eventually change. That sounds reasonable because it is how we have introduced software for decades."
+      },
+      {
+        "type": "paragraph",
+        "text": "But with AI, it often gets the learning process backward."
+      },
+      {
+        "type": "paragraph",
+        "text": "Start instead with the work. Take something tangible: how a lead becomes an opportunity, how a customer interaction gets captured in CRM, how buying signals get identified and routed, or how pipeline risk gets surfaced. Then ask a deceptively simple question: How should this work now that AI can do part of it?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Maybe AI should research every account before a rep ever sees it. Maybe it should listen to every customer conversation and update CRM automatically. Maybe it should watch dozens of buying signals humans could never monitor consistently and surface only the ones that matter."
+      },
+      {
+        "type": "paragraph",
+        "text": "Once you redesign the workflow, something interesting happens: training becomes obvious. You're no longer teaching someone \"how to use AI.\" You're teaching them how to do their job inside a new operating system."
+      },
+      {
+        "type": "heading",
+        "text": "The Workflow Becomes the Classroom"
+      },
+      {
+        "type": "paragraph",
+        "text": "Think about the things you've actually become good at during your career. Chances are, you didn't master them because someone gave a great PowerPoint presentation. You did the work. You made mistakes. Someone more experienced pointed something out. You tried again. Eventually, you stopped thinking about the mechanics and started developing judgment."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI will probably work the same way. The most effective training increasingly happens inside the workflow itself. The system surfaces something. The employee interprets it. The employee acts. The result creates feedback. The system gets adjusted. The employee gets better. Then everyone comes back tomorrow and does it again."
+      },
+      {
+        "type": "paragraph",
+        "text": "Over time, people begin developing something much more valuable than AI literacy: AI judgment. They learn what the system is unusually good at and where it tends to stumble. They recognize which signals deserve immediate attention and which are probably noise. They know when to trust the recommendation, when to investigate, and when to ignore it altogether."
+      },
+      {
+        "type": "paragraph",
+        "text": "No certification badge can give them that. Experience can."
+      },
+      {
+        "type": "heading",
+        "text": "Training Isn't Going Away"
+      },
+      {
+        "type": "paragraph",
+        "text": "This isn't an argument for eliminating formal AI training. People still need foundational literacy. They need to understand the technology, the risks, the guardrails, and what responsible use looks like. Documentation matters. Playbooks matter. Champions, office hours, and structured enablement all have a role."
+      },
+      {
+        "type": "paragraph",
+        "text": "But those things should support the operating model rather than substitute for one. It's also why vendor training, however good, has a natural ceiling."
+      },
+      {
+        "type": "paragraph",
+        "text": "A software company can teach your employees how its product works. It can show them features, use cases, shortcuts, and best practices. What it cannot completely teach them is how your company should work differently because that technology now exists."
+      },
+      {
+        "type": "paragraph",
+        "text": "That knowledge lives inside your processes, your customers, your data, your systems, your exceptions, and the accumulated judgment of the people who already know the business. Which is why the next generation of AI training may look less like software enablement and more like apprenticeship."
+      },
+      {
+        "type": "paragraph",
+        "text": "Build the workflow. Put people inside it. Work through real cases. Watch where the AI struggles and where the humans struggle. Adjust both, and repeat."
+      },
+      {
+        "type": "heading",
+        "text": "The Work Has to Change"
+      },
+      {
+        "type": "paragraph",
+        "text": "For decades, enterprise software followed a familiar formula: Buy → Configure → Train → Adopt."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI breaks that formula because AI isn't simply another application waiting for employees to learn how to use it. Increasingly, AI is becoming a participant in the work itself. It researches, monitors, drafts, prioritizes, scores, routes, and recommends. Eventually, it may perform entire portions of a workflow before a human ever becomes involved."
+      },
+      {
+        "type": "paragraph",
+        "text": "When that happens, the human job changes too. That is why a company can train hundreds of employees on AI and still see surprisingly little operational impact. Everyone may know how to use the technology. Everyone may even be using it every day."
+      },
+      {
+        "type": "paragraph",
+        "text": "But if Monday morning still looks essentially the same as it did before the AI arrived, the transformation hasn't really started."
+      },
+      {
+        "type": "paragraph",
+        "text": "The question for leaders, then, isn't How do we train everyone on AI? It's a more interesting question: How should this work now that AI can do part of it? Answer that first. Then you'll finally have something worth training people to do."
+      },
+      {
+        "type": "cta",
+        "text": "Discover how we can help you transform your business. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "how-to-make-ai-videos-that-dont-look-like-ai": {
     "title": "How to Make AI Videos That Don’t Look Like AI",
     "slug": "how-to-make-ai-videos-that-dont-look-like-ai",
