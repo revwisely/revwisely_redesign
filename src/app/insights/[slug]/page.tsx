@@ -178,6 +178,12 @@ const videoMap: Record<
     uploadDate: "2026-07-27",
   },
   // Poster is the post's original still, so the insights card and the post hero match.
+  "the-human-premium": {
+    src: "/videos/the-human-premium.mp4",
+    poster: "/images/blog/the-human-premium.jpeg",
+    duration: "PT30S",
+    uploadDate: "2026-08-24",
+  },
   "how-to-make-ai-videos-that-dont-look-like-ai": {
     src: "/videos/plugin-capability-reel.mp4",
     poster: "/images/blog/how-to-make-ai-videos-that-dont-look-like-ai.jpeg",
