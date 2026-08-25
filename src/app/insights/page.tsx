@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "Stop Training People\nto Use AI",
-  image: "/images/blog/stop-training-people-to-use-ai.jpeg",
-  slug: "stop-training-people-to-use-ai",
+  title: "The Human Premium",
+  image: "/images/blog/the-human-premium.jpeg",
+  slug: "the-human-premium",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "Stop Training People to Use AI",
+    image: "/images/blog/stop-training-people-to-use-ai.jpeg",
+    slug: "stop-training-people-to-use-ai",
+  },
   {
     title: "How to Make AI Videos That Don’t Look Like AI",
     image: "/images/blog/how-to-make-ai-videos-that-dont-look-like-ai.jpeg",

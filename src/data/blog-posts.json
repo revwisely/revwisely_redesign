@@ -1,4 +1,170 @@
 {
+  "the-human-premium": {
+    "title": "The Human Premium",
+    "slug": "the-human-premium",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "AI may reduce the number of people required to do certain types of work, but it makes the human part of work more important."
+      },
+      {
+        "type": "paragraph",
+        "text": "For the past two years, much digital ink has been spilled on how AI can remove people from manual, repetitive work. AI can research the account, write the email, prepare the meeting, analyze the call, update the CRM, create the content, find the signal, and recommend what should happen next. Increasingly, it can string many of those tasks together and execute the work with little human involvement."
+      },
+      {
+        "type": "paragraph",
+        "text": "All true. And mostly good. But something interesting happens as AI takes over more of the work. What's left becomes disproportionately human."
+      },
+      {
+        "type": "paragraph",
+        "text": "Someone still has to get the prospect to trust them. Someone has to recognize that the customer isn't saying what they really mean, ask the uncomfortable follow-up question, navigate disagreement between departments, persuade the CFO, or recognize when the data says one thing and the room says another."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI doesn't eliminate the human layer. It exposes it. And that may be one of the least appreciated consequences of what is happening to work."
+      },
+      {
+        "type": "heading",
+        "text": "The Salesperson Gets the Job Back"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is an apparent contradiction at the center of AI. Companies will almost certainly need fewer people to perform certain kinds of work. We are already seeing it in software development, customer support, marketing, sales operations, research, and administrative functions. A workflow that once required several people moving information between systems can increasingly be run by AI with a person supervising exceptions."
+      },
+      {
+        "type": "paragraph",
+        "text": "But fewer people doesn't necessarily mean less need for people. It may mean that what we need people for changes considerably."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine a salesperson who spends only 30 or 40 percent of the week actually interacting with customers. The rest disappears into research, meeting preparation, CRM updates, follow-up emails, internal coordination, pipeline administration, and hunting for information. We've accepted this as sales for so long that it barely seems strange anymore."
+      },
+      {
+        "type": "paragraph",
+        "text": "Now redesign the job around AI. Before the meeting, AI researches the company, the participants, recent activity, previous conversations, competitive context, and likely areas of interest. Afterward, it captures the conversation, updates Salesforce, drafts the follow-up, creates tasks, alerts other teams, and watches for signals that indicate what should happen next."
+      },
+      {
+        "type": "paragraph",
+        "text": "A substantial amount of the work disappears. The salesperson doesn't. The salesperson gets the job back."
+      },
+      {
+        "type": "paragraph",
+        "text": "They can spend more time talking to customers, asking better questions, building relationships, developing champions, navigating organizations, negotiating, listening, and thinking. This is where I think we're getting part of the AI conversation wrong. We talk constantly about removing people from work when one of the biggest opportunities may be removing work from people."
+      },
+      {
+        "type": "paragraph",
+        "text": "Those are very different ambitions."
+      },
+      {
+        "type": "heading",
+        "text": "When Competence Becomes Abundant"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is another consequence that may be even more important. For most of business history, producing competent work required effort. A decent sales email took time. Researching a prospect took time. Building a presentation took time. Writing an article took time. Analyzing a customer conversation took time."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI is rapidly collapsing the cost of competent output, and that changes what becomes valuable. When everyone can produce a polished email, polish stops differentiating you. When everyone can research a prospect in seconds, having the research doesn't differentiate you. When everyone can generate a respectable presentation, the slides themselves become less important."
+      },
+      {
+        "type": "paragraph",
+        "text": "The scarce thing moves somewhere else."
+      },
+      {
+        "type": "paragraph",
+        "text": "Call it the human premium: the increasing value of the things that are difficult to automate precisely because they happen between people. Knowing when the customer is hesitating. Sensing that the person who hasn't spoken for 20 minutes may actually control the decision. Realizing that the objection being discussed isn't the real objection. Knowing when to stop presenting and start listening."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of this appears neatly in a CRM field. It happens in the room, between people, often in moments nobody planned for."
+      },
+      {
+        "type": "heading",
+        "text": "Answers Are Getting Cheap"
+      },
+      {
+        "type": "paragraph",
+        "text": "There's another way to think about this. For most of our careers, knowing the answer carried significant value. Expertise was partly a function of accumulating knowledge other people didn't have."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI changes that equation. Almost everyone now has access to a machine capable of generating a reasonably good answer to an astonishing range of questions within seconds. The quality isn't perfect, but it is improving rapidly, and the marginal cost of asking another question is effectively zero."
+      },
+      {
+        "type": "paragraph",
+        "text": "Answers are becoming abundant. Good questions aren't."
+      },
+      {
+        "type": "paragraph",
+        "text": "Think about the best sales call, management conversation, negotiation, or strategy session you've been part of. The breakthrough probably didn't happen because someone delivered a perfectly constructed response. More often, somebody noticed something that didn't quite add up and asked a question that changed the conversation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Why hasn't this been fixed already? What happens if you do nothing? Who disagrees with this internally? What aren't we talking about? What would have to be true for you to change your mind?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The value isn't simply in the words. It's knowing which question to ask, of whom, at what moment—and then actually listening to the answer. AI can suggest 50 questions before the meeting. It can even listen to the meeting and recommend what you might ask next. But there is still a difference between having a question and knowing when the room is ready for it."
+      },
+      {
+        "type": "heading",
+        "text": "Redesigning the Human Job"
+      },
+      {
+        "type": "paragraph",
+        "text": "This has implications beyond productivity. Most companies are currently asking some version of: How much more can each person accomplish with AI?"
+      },
+      {
+        "type": "paragraph",
+        "text": "It's a reasonable question. But there's a more consequential one: What should we expect people to become better at once AI is doing everything else?"
+      },
+      {
+        "type": "paragraph",
+        "text": "If AI handles more research, writing, analysis, documentation, preparation, and administration, then human development should shift toward the capabilities that become relatively more valuable: curiosity, judgment, persuasion, communication, conflict resolution, listening, creativity, and trust."
+      },
+      {
+        "type": "paragraph",
+        "text": "Take a sales manager. If AI can inspect every opportunity, summarize every customer conversation, identify pipeline risk, flag weak next steps, and recommend coaching opportunities, the manager shouldn't spend Monday morning collecting pipeline updates from eight reps."
+      },
+      {
+        "type": "paragraph",
+        "text": "The technology should eliminate that meeting. But that doesn't eliminate the manager. It creates an opportunity for the manager to spend that time actually managing: coaching a rep through a difficult negotiation, helping another understand why a deal keeps stalling, or joining a conversation where executive judgment matters."
+      },
+      {
+        "type": "paragraph",
+        "text": "The same pattern applies across functions. The marketer gets less valuable for producing copy and more valuable for having something worth saying. The analyst gets less valuable for assembling information and more valuable for interpreting what it means. The executive gets less valuable for possessing information and more valuable for making good decisions with it."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI doesn't simply make jobs smaller. It concentrates them around the parts that matter."
+      },
+      {
+        "type": "heading",
+        "text": "The Human Opportunity"
+      },
+      {
+        "type": "paragraph",
+        "text": "The irony of the AI era may be that the more capable our machines become, the more obvious our uniquely human contribution becomes."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI will take on more of the research, preparation, documentation and analysis that consume our days. That will change jobs, but it will also give people more time to do what people do best: talk to customers, coach someone, resolve disagreements, notice what the data missed, and ask the question nobody thought to ask."
+      },
+      {
+        "type": "paragraph",
+        "text": "As competent output becomes abundant, judgment, curiosity, persuasion and trust become more valuable. Perhaps that's the opportunity hiding inside all this automation. AI can give us more time to do the work where people matter most."
+      },
+      {
+        "type": "paragraph",
+        "text": "Perhaps the better question isn't which jobs AI will eliminate, but what does AI free humans to do?"
+      },
+      {
+        "type": "cta",
+        "text": "Discover how we can help you transform your business. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "stop-training-people-to-use-ai": {
     "title": "Stop Training People to Use AI",
     "slug": "stop-training-people-to-use-ai",
