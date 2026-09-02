@@ -12,6 +12,7 @@ const data = blogData as Record<string, {
 
 // Image map for posts that have hero images
 const imageMap: Record<string, string> = {
+  "same-ai-four-different-jobs": "/images/blog/same-ai-four-different-jobs.jpeg",
   "the-human-premium": "/images/blog/the-human-premium.jpeg",
   "stop-training-people-to-use-ai": "/images/blog/stop-training-people-to-use-ai.jpeg",
   "the-ai-consulting-model-is-broken": "/images/blog/the-ai-consulting-model-is-broken.jpeg",
@@ -178,6 +179,12 @@ const videoMap: Record<
     uploadDate: "2026-07-27",
   },
   // Poster is the post's original still, so the insights card and the post hero match.
+  "same-ai-four-different-jobs": {
+    src: "/videos/same-ai-four-different-jobs.mp4",
+    poster: "/images/blog/same-ai-four-different-jobs.jpeg",
+    duration: "PT29S",
+    uploadDate: "2026-08-31",
+  },
   "the-human-premium": {
     src: "/videos/the-human-premium.mp4",
     poster: "/images/blog/the-human-premium.jpeg",

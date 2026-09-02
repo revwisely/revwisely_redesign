@@ -1,4 +1,146 @@
 {
+  "same-ai-four-different-jobs": {
+    "title": "Same AI. Four Different Jobs.",
+    "slug": "same-ai-four-different-jobs",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "AI revenue systems don’t usually fail because the technology is wrong. They fail because companies “hire” them to do the wrong job."
+      },
+      {
+        "type": "paragraph",
+        "text": "The technology can be remarkably similar from one company to another. The workflows, agents, monitoring, and underlying models don’t necessarily change much. What changes is what the company actually needs from them. A ten-person company needs AI to give its founders their time back. A company with a drawer full of abandoned agents needs someone to figure out what still works. A mid-size company making its first serious AI investment needs proof. A large company may have perfectly good technology and a much harder problem: getting fifty people to change the way they work."
+      },
+      {
+        "type": "paragraph",
+        "text": "Same AI. Four very different jobs. And getting the job wrong can be almost as expensive as getting the technology wrong. Saving a founder five hours a week, rescuing six useful agents, proving one workflow can cut manual work by a third, and getting fifty salespeople to adopt a new way of working are four very different outcomes."
+      },
+      {
+        "type": "heading",
+        "text": "Stage One: Give the Founders Their Time Back"
+      },
+      {
+        "type": "paragraph",
+        "text": "At ten people, AI has one job: buy back founders’ hours. There may not be a sales team yet. The founders are finding prospects, researching accounts, preparing for meetings, following up, and closing. Every hour spent assembling a prospect list or researching someone before a call is an hour they aren’t talking to customers."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where AI can have an immediate impact. Let it do the research. Build the lists. Prepare the meeting briefs. Handle the repetitive work surrounding the conversation so the founders can spend more time having the conversation."
+      },
+      {
+        "type": "paragraph",
+        "text": "The trick is not to overbuild it. There is no RevOps department standing by to administer twelve agents, and nobody wants another system that needs care and feeding. At this stage, the best AI system may also be the least interesting one: a few valuable workflows that quietly run every day without anyone having to think very much about them."
+      },
+      {
+        "type": "paragraph",
+        "text": "The economics are pretty simple, too. A founder shouldn’t need a six-month business case to automate work that consumes ten hours every week. The return is sitting right there on the calendar. At this stage, simplicity and reliability beat sophistication almost every time."
+      },
+      {
+        "type": "heading",
+        "text": "Stage Two: Figure Out What Still Works"
+      },
+      {
+        "type": "paragraph",
+        "text": "We’re seeing more of this one. Someone inside a company gets excited about AI and starts building. Agents appear. Workflows get automated. Some of them are surprisingly good."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then the person who built everything leaves, gets promoted, moves to another project, or simply gets busy doing their actual job. Six months later, the company has a collection of AI agents and nobody is quite sure what still works."
+      },
+      {
+        "type": "paragraph",
+        "text": "The temptation is to start over. Usually, that’s the wrong answer. The first job is archaeology: run the agents, evaluate the output, figure out which ones are useful, which ones have degraded, and which ones probably weren’t very good to begin with. Then put someone in charge of what survives and install enough monitoring to know when something stops working."
+      },
+      {
+        "type": "paragraph",
+        "text": "The job here isn’t building. It’s revival. Companies that recognize this can preserve a surprising amount of what they already invested in. Companies that don’t can spend another six months rebuilding remarkably similar versions of what they just abandoned."
+      },
+      {
+        "type": "paragraph",
+        "text": "There’s also a larger lesson hiding in these abandoned systems: AI needs an owner. Someone has to know what is running, whether it is performing, what changed, and what happens when it stops. The first generation of AI projects often treated ownership as something to figure out later. It should be decided before anything gets built."
+      },
+      {
+        "type": "heading",
+        "text": "Stage Three: Prove It Works"
+      },
+      {
+        "type": "paragraph",
+        "text": "This may be the most common mistake we see. A company decides it is finally going to get serious about AI. Leadership identifies ten or twelve workflows that could be automated. Everyone gets excited. A roadmap gets created. And suddenly the first AI project has become a transformation program."
+      },
+      {
+        "type": "paragraph",
+        "text": "Don’t do that. Pick one workflow—better yet, pick the workflow where people are spending an absurd amount of time doing work a machine could reasonably do. Measure how much time it consumes today. Redesign it around AI. Put it into production. Then measure what changed."
+      },
+      {
+        "type": "paragraph",
+        "text": "That first workflow has a second job beyond whatever work it automates: it has to prove AI works inside your company. One workflow saving 30% of the time previously spent on a process is much more persuasive than twelve workflows sitting on a roadmap. People can see it. Finance can measure it. Leadership can defend the next investment."
+      },
+      {
+        "type": "paragraph",
+        "text": "Starting small also teaches you how your company actually handles AI. Where does the data break? Which integrations are harder than expected? How much human review is really necessary? What happens when the output is wrong? Those are much cheaper questions to answer with one workflow than twelve."
+      },
+      {
+        "type": "paragraph",
+        "text": "One workflow in production beats twelve in planning. Then build the second one."
+      },
+      {
+        "type": "heading",
+        "text": "Stage Four: Get People to Actually Use It"
+      },
+      {
+        "type": "paragraph",
+        "text": "At a larger company, the technology may be the easy part. Now there are legacy systems to connect, security teams to satisfy, processes that have existed for years, and fifty or a hundred people who need to change how they work."
+      },
+      {
+        "type": "paragraph",
+        "text": "You can build a perfectly good AI workflow in thirty days and spend the next six months wondering why nobody uses it. That isn’t an AI problem. It’s an organizational one."
+      },
+      {
+        "type": "paragraph",
+        "text": "The companies that handle this well resist the urge to launch everywhere at once. They put the basic guardrails in place—security, integrations, ownership, monitoring—and then find a beachhead: one team, one workflow, one measurable result."
+      },
+      {
+        "type": "paragraph",
+        "text": "When that team starts saving hours every week, something useful happens: other teams want what they have. That kind of change is much easier to spread than an email from management announcing that everyone is now expected to use the new AI system."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is also where efficiency alone stops being enough. A workflow can save thousands of hours on paper and still create little value if people work around it. Adoption becomes part of the ROI calculation. So does trust. People need to understand what the system does well, where human judgment still matters, and why changing the way they work will make their jobs better."
+      },
+      {
+        "type": "heading",
+        "text": "So Which Job Are You Hiring AI to Do?"
+      },
+      {
+        "type": "paragraph",
+        "text": "You can usually figure it out with three questions. Who is going to operate this thing tomorrow? What have you already built? And how many people will have to work differently if it succeeds?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Those questions sound almost embarrassingly simple. But the answers tell you far more about how an AI system should be designed and deployed than a feature comparison ever will. If nobody owns it, you have an ownership problem. If you already have agents sitting around, you may have a revival problem. If you’re starting from scratch, you probably need a proof problem solved first."
+      },
+      {
+        "type": "paragraph",
+        "text": "And if fifty people have to change how they work, congratulations: you have a change-management problem disguised as an AI project."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is why two companies can buy essentially the same AI revenue system and be buying completely different things. One is buying back time. One is rescuing an earlier investment. One is buying proof. And one is buying organizational change."
+      },
+      {
+        "type": "paragraph",
+        "text": "The mistake is starting with what the AI can do rather than what the company needs it to do. That distinction changes what you build, how much you build, who owns it, how you introduce it, and what you measure. The technology matters, of course. But increasingly, that isn’t where AI initiatives succeed or fail. They succeed when companies understand the work that needs to change, where they are starting from, and what has to happen next."
+      },
+      {
+        "type": "paragraph",
+        "text": "Getting that right before you build isn’t preparation for the work. It is the work."
+      },
+      {
+        "type": "cta",
+        "text": "Discover how we can help you transform your business. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "the-human-premium": {
     "title": "The Human Premium",
     "slug": "the-human-premium",

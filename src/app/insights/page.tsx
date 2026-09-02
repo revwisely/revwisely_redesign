@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "The Human Premium",
-  image: "/images/blog/the-human-premium.jpeg",
-  slug: "the-human-premium",
+  title: "Same AI. Four Different Jobs.",
+  image: "/images/blog/same-ai-four-different-jobs.jpeg",
+  slug: "same-ai-four-different-jobs",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "The Human Premium",
+    image: "/images/blog/the-human-premium.jpeg",
+    slug: "the-human-premium",
+  },
   {
     title: "Stop Training People to Use AI",
     image: "/images/blog/stop-training-people-to-use-ai.jpeg",

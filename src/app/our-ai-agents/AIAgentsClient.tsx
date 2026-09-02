@@ -382,6 +382,21 @@ function Hero() {
   );
 }
 
+/* ─── Team flow maps ─── */
+/* Keyed by team label so the teams array above stays untouched.
+   Source: magnetiz/visuals/build_flows.py in the vault, which generates
+   both brands from one spec so node size and spacing never drift. */
+const FLOWS: Record<string, string> = {
+  "Strategy Team": "/flows/strategy-team.svg",
+  "Content Team": "/flows/content-team.svg",
+  "Creative Team": "/flows/creative-team.svg",
+  "Quality Gate": "/flows/quality-gate.svg",
+  "Analytics Team": "/flows/analytics-team.svg",
+  "GTM Outbound System": "/flows/gtm-outbound-system.svg",
+  "Maestro Video Studio": "/flows/maestro-video-studio.svg",
+  "Maestro PM": "/flows/maestro-pm.svg",
+};
+
 /* ─── Team Section ─── */
 
 function TeamSection({
@@ -412,6 +427,17 @@ function TeamSection({
           transition={{ duration: 0.6, delay: 0.15 }}
           className="mt-6 h-[2px] w-12 origin-left bg-[var(--brand-red)] opacity-40"
         />
+
+        {FLOWS[team.label] && (
+          <motion.img
+            src={FLOWS[team.label]}
+            alt={`How the ${team.label} works together`}
+            initial={{ opacity: 0, y: 16 }}
+            animate={isInView ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mt-10 block h-auto w-full max-w-[1010px]"
+          />
+        )}
 
         <div className="mt-12 grid gap-5 md:grid-cols-2">
           {team.agents.map((agent, i) => (
