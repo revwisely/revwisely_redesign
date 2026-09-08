@@ -180,6 +180,12 @@ const videoMap: Record<
     uploadDate: "2026-07-27",
   },
   // Poster is the post's original still, so the insights card and the post hero match.
+  "why-ai-agents-underperform": {
+    src: "/videos/why-ai-agents-underperform.mp4",
+    poster: "/images/blog/why-ai-agents-underperform.jpeg",
+    duration: "PT31.5S",
+    uploadDate: "2026-09-08",
+  },
   "same-ai-four-different-jobs": {
     src: "/videos/same-ai-four-different-jobs.mp4",
     poster: "/images/blog/same-ai-four-different-jobs.jpeg",
