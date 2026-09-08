@@ -1,4 +1,170 @@
 {
+  "why-ai-agents-underperform": {
+    "title": "Why AI Agents Underperform",
+    "slug": "why-ai-agents-underperform",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The agents aren’t the problem. There’s a pattern I keep seeing with companies that have invested in AI. They have good tools. They’ve built agents. They’ve run pilots and automated a growing list of tasks. And yet, after the initial burst of productivity, the gains start to flatten out."
+      },
+      {
+        "type": "paragraph",
+        "text": "I think the reason is fairly simple. We’ve made the agent the unit of value. It isn’t. The workflow is."
+      },
+      {
+        "type": "paragraph",
+        "text": "At RevWisely, our GTM operation now runs on 50+ specialized AI agents organized into functional teams across strategy, content, creative, quality, analytics, outbound, and operations. But the biggest gains haven’t come from adding more agents. They’ve come from redesigning the work around what those agents can do together."
+      },
+      {
+        "type": "paragraph",
+        "text": "The output of one becomes the input of another. Context moves with the work. Quality checks happen along the way. Humans step in where judgment actually matters. For us, that distinction has changed how we think about AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "Below are five practices we’re sharing from a recent client conversation about what wasn’t working with their AI efforts—and what we recommended they do differently."
+      },
+      {
+        "type": "heading",
+        "text": "Think Workflows, Not Tasks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most companies start with the obvious question: what can we automate?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Write the follow-up email. Summarize the call. Score the lead. Research the account. Create the first draft. All useful. But you’re still doing essentially the same work in essentially the same way. You’ve just made a few steps faster. The much more interesting question is: what should this entire process look like if AI is doing much of the work?"
+      },
+      {
+        "type": "paragraph",
+        "text": "That leads somewhere different."
+      },
+      {
+        "type": "paragraph",
+        "text": "When we built our GTM system, we didn’t simply automate our old content process. We eventually realized we needed to replace it with a process designed around AI: different inputs, different handoffs, different quality checks, and in some cases entirely different steps."
+      },
+      {
+        "type": "paragraph",
+        "text": "I think this is where a lot of the real efficiency is hiding. We keep trying to make yesterday’s work faster when AI gives us the opportunity to redesign the work itself."
+      },
+      {
+        "type": "heading",
+        "text": "Use Specialized AI Agents for Each Step"
+      },
+      {
+        "type": "paragraph",
+        "text": "Don’t ask one agent to do too much. An agent responsible for an entire function eventually becomes a bottleneck. It needs too much context, makes too many different kinds of judgments, and produces outputs intended to satisfy too many downstream needs."
+      },
+      {
+        "type": "paragraph",
+        "text": "We’ve had much better results giving agents narrower jobs and connecting them."
+      },
+      {
+        "type": "paragraph",
+        "text": "Our content operation, for example, uses dedicated agents for keyword research, writing, fact-checking, brand voice, quality control, and publishing. Each has a specific job. Each hands its work to the next. That sounds more complicated than one giant agent. Operationally, we’ve found the opposite. When something goes wrong, you can see where it went wrong. If the writing is good but the voice is off, you know where to look. If the research is weak, you don’t have to rebuild the entire system. You fix that part."
+      },
+      {
+        "type": "paragraph",
+        "text": "The same principle applies to the instructions themselves. Vague inputs create vague outputs. The more clearly you define what an agent receives, what it is supposed to do, and what good output looks like, the more reliable the workflow becomes."
+      },
+      {
+        "type": "heading",
+        "text": "Strategy and Context Come First"
+      },
+      {
+        "type": "paragraph",
+        "text": "This may be the least glamorous part of building AI workflows. It may also be the most important. Before an agent does anything, it needs to understand what good looks like: the audience, positioning, messaging, voice, rules, constraints, and expected outcome."
+      },
+      {
+        "type": "paragraph",
+        "text": "When AI produces something that technically checks every box but somehow still feels wrong, we tend to blame the model. Increasingly, I think the problem is somewhere upstream. The AI wasn’t given enough judgment to work with."
+      },
+      {
+        "type": "paragraph",
+        "text": "In our system, strategy sits ahead of execution. Brand voice, positioning, messaging, audience parameters, and other context are established before the content or outbound work begins. That context becomes infrastructure."
+      },
+      {
+        "type": "paragraph",
+        "text": "It also solves another problem companies have had forever. When the rules and judgment behind good work live primarily in the heads of a few experienced people, they’re difficult to scale. Once that knowledge is documented, structured, and maintained, it becomes useful to both AI and humans."
+      },
+      {
+        "type": "heading",
+        "text": "Keep Humans Where Judgment Matters"
+      },
+      {
+        "type": "paragraph",
+        "text": "I’ve come to think about this fairly simply: AI does the work. People make the calls. The objective isn’t to remove people from the workflow. It’s to stop using people for steps that no longer require much human judgment. Drafting, formatting, scheduling, logging, scoring, monitoring—AI can increasingly handle those things. Strategic pivots, approvals that actually matter, relationship decisions, and subjective quality calls still benefit enormously from people."
+      },
+      {
+        "type": "paragraph",
+        "text": "Where you draw that line matters."
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the things I watch for is the human review step that has become ceremonial. If someone approves an AI output 99 times out of 100 without changing anything, why is that step still there? Either the AI has become good enough that the approval is unnecessary, or the human isn’t actually adding judgment. Both suggest the workflow needs another look."
+      },
+      {
+        "type": "heading",
+        "text": "Build AI Workflows on Your Existing Stack"
+      },
+      {
+        "type": "paragraph",
+        "text": "There’s also a tendency to assume that becoming AI-native requires replacing half the technology stack. Usually, it doesn’t."
+      },
+      {
+        "type": "paragraph",
+        "text": "We’ve found it much more practical to start with the systems people already use, then build AI workflows across them. Pick two or three meaningful processes. Redesign them end to end. Put them into production. Measure what happens. Then expand."
+      },
+      {
+        "type": "paragraph",
+        "text": "There may eventually be technology you no longer need. We’ve found that ourselves. But replacing software before redesigning the work can easily become a very expensive distraction. The harder problem isn’t which platform you use. It’s deciding how the work should move: what information is needed, where it comes from, what AI does with it, where the output goes, and when a person should get involved."
+      },
+      {
+        "type": "heading",
+        "text": "Measure What the Workflow Produces"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is another distinction I think matters: don’t just measure whether the agent works. Measure whether the workflow works."
+      },
+      {
+        "type": "paragraph",
+        "text": "An agent can produce a perfectly acceptable output and contribute almost nothing to the business. The workflow is what connects that output to an outcome. For content, that might mean quality, publishing cadence, engagement, or pipeline influence. For outbound, it could mean reply rates, meetings, opportunities, or pipeline created. For an internal workflow, it may simply be hours of human work eliminated."
+      },
+      {
+        "type": "paragraph",
+        "text": "The measures don’t have to be perfect on day one. They just need to exist. Otherwise, you’re demonstrating AI. You’re not operating it."
+      },
+      {
+        "type": "heading",
+        "text": "The Compounding Effect"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where the difference starts to matter. One AI agent can make one task faster. Ten disconnected agents can make ten tasks faster. That’s useful, but it’s still automation."
+      },
+      {
+        "type": "paragraph",
+        "text": "Connect those agents into workflows—with shared context, deliberate handoffs, measurable outcomes, and human judgment in the right places—and the gains begin to compound. You’re no longer just making individual tasks more efficient. You’re changing how the work gets done."
+      },
+      {
+        "type": "paragraph",
+        "text": "To me, that’s the difference between a company that uses AI and one that is becoming AI-native. One applies AI to the way it already works. The other redesigns the work around what AI makes possible."
+      },
+      {
+        "type": "paragraph",
+        "text": "That’s why I think “What else can we automate?” is the wrong question. The better one is: “If we were designing this work today, knowing what AI can do, would we design it this way?”"
+      },
+      {
+        "type": "paragraph",
+        "text": "Increasingly, the answer is no."
+      },
+      {
+        "type": "cta",
+        "text": "Discover how we can help you transform your business. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "same-ai-four-different-jobs": {
     "title": "Same AI. Four Different Jobs.",
     "slug": "same-ai-four-different-jobs",
