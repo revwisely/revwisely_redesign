@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "Why AI Agents Underperform",
-  image: "/images/blog/why-ai-agents-underperform.jpeg",
-  slug: "why-ai-agents-underperform",
+  title: "The Decisions You Don’t Make",
+  image: "/images/blog/the-decisions-you-dont-make.jpeg",
+  slug: "the-decisions-you-dont-make",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,16 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "How to Build An AI-Native Marketing Organization",
+    image: "/images/blog/how-to-build-an-ai-native-marketing-organization.jpeg",
+    slug: "how-to-build-an-ai-native-marketing-organization",
+  },
+  {
+    title: "Why AI Agents Underperform",
+    image: "/images/blog/why-ai-agents-underperform.jpeg",
+    slug: "why-ai-agents-underperform",
+  },
   {
     title: "Same AI. Four Different Jobs.",
     image: "/images/blog/same-ai-four-different-jobs.jpeg",

@@ -1,4 +1,312 @@
 {
+  "the-decisions-you-dont-make": {
+    "title": "The Decisions You Don’t Make",
+    "slug": "the-decisions-you-dont-make",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Playing it safe can look like good management."
+      },
+      {
+        "type": "paragraph",
+        "text": "I have sat through a certain kind of meeting more times than I can count. Someone has an idea. Maybe it is a new market, a different way of selling, an acquisition, an investment in technology, or a fundamental change to how some piece of the business works. The idea is interesting enough to get everyone into the room, and for the first twenty minutes, the conversation has energy."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then the questions begin. How much will it cost? What happens if it doesn’t work? Has anyone else done this successfully? Can we prove the ROI first? What will customers think? Should we run a pilot? Let’s wait until next quarter when we have better data."
+      },
+      {
+        "type": "paragraph",
+        "text": "These are reasonable questions. Good executives ask them. Companies shouldn’t throw money at every interesting idea. But sometimes something else is happening."
+      },
+      {
+        "type": "paragraph",
+        "text": "The organization isn’t really evaluating whether the idea can help it win. It is slowly constructing a case for why doing nothing is the responsible choice. And almost everyone leaves the room believing they made a prudent decision."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is what makes playing not to lose so difficult to recognize."
+      },
+      {
+        "type": "heading",
+        "text": "Prudence Has Excellent Manners"
+      },
+      {
+        "type": "paragraph",
+        "text": "We tend to imagine conservative organizations as obviously conservative: slow, bureaucratic and allergic to risk. I don’t think it usually works that way."
+      },
+      {
+        "type": "paragraph",
+        "text": "Playing not to lose rarely announces itself as fear. It arrives dressed as diligence."
+      },
+      {
+        "type": "paragraph",
+        "text": "It asks for another analysis. It suggests a smaller pilot. It wants one more customer reference. It adds another person to the approval process. It recommends waiting until the market settles down. None of those decisions is inherently wrong. The problem comes when this way of thinking becomes routine."
+      },
+      {
+        "type": "paragraph",
+        "text": "Nobody announces that the company will henceforth become timid. It happens gradually, through hundreds of individually defensible decisions, each removing a little uncertainty. After a while, the organization gets very good at finding reasons to wait. That’s when prudence starts getting expensive."
+      },
+      {
+        "type": "heading",
+        "text": "Listen to the Questions"
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the easiest ways to tell whether an organization is playing to win or playing not to lose is to listen to the questions its leaders ask."
+      },
+      {
+        "type": "paragraph",
+        "text": "In some companies, the conversation starts with the downside. What could go wrong? How much could we lose? How do we protect the existing business? What proof do we have? How quickly can we reverse the decision?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Companies that play to win care about those things too. They simply spend more time on a different set of questions. What are we trying to accomplish? What would have to be true to accomplish it? What advantage could this create? What happens if we don’t do it? And perhaps most importantly: what are we willing to risk to get there?"
+      },
+      {
+        "type": "paragraph",
+        "text": "The difference is subtle, but it changes the conversation. Starting with the outcome pulls a discussion toward what is possible and what it will take. Starting with the downside pulls it toward what might go wrong. Either approach can produce the right answer on a particular decision. Across hundreds of decisions, those starting points begin to shape the company."
+      },
+      {
+        "type": "heading",
+        "text": "The Cost You Can’t See"
+      },
+      {
+        "type": "paragraph",
+        "text": "The mathematics of playing not to lose are deceptive because the costs often don’t appear anywhere on the income statement. If you invest $500,000 in something and it fails, everyone can see the $500,000. If you don’t invest and a competitor builds the capability first, there is no line item called “opportunity we missed.”"
+      },
+      {
+        "type": "paragraph",
+        "text": "Nobody receives an invoice for moving too slowly. There is no expense category for the customers you never acquired, the product you never built, the talented person you never hired, or the productivity you never unlocked."
+      },
+      {
+        "type": "paragraph",
+        "text": "This makes decision-making lopsided. We can calculate the cost of doing something. Figuring out what it might cost to do nothing is harder. So the safer decision enters the room with an advantage. It may still be right, but what waiting might cost deserves just as much scrutiny."
+      },
+      {
+        "type": "heading",
+        "text": "AI Is Making This Easier to See"
+      },
+      {
+        "type": "paragraph",
+        "text": "You can see this dynamic clearly in the way companies are approaching AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "One company asks, “How can we let employees experiment with this safely?” Another asks, “Knowing what AI can do today, how would we design this operation if we were starting from scratch?” Those sound like similar questions. They aren’t."
+      },
+      {
+        "type": "paragraph",
+        "text": "The first is about introducing a new technology into an existing system without disrupting it. Give people licenses. Establish policies. Run pilots. Find some use cases. Measure productivity. All perfectly reasonable."
+      },
+      {
+        "type": "paragraph",
+        "text": "The second leads somewhere less comfortable. Maybe the workflow shouldn’t exist anymore. Maybe the software isn’t necessary. Maybe a role changes dramatically. Maybe the handoffs between departments disappear. Maybe the organization doesn’t need to hire the next three people it planned to hire."
+      },
+      {
+        "type": "paragraph",
+        "text": "The first company is figuring out where AI belongs in the business it already has. The second is reconsidering the business because AI now makes other approaches possible."
+      },
+      {
+        "type": "heading",
+        "text": "The Safest Decision Can Be the Riskiest"
+      },
+      {
+        "type": "paragraph",
+        "text": "Playing to win doesn’t always mean making the more aggressive decision. Sometimes the right decision is to stop, walk away, or not invest at all. The point is to make the decision that gives you the best chance of reaching the outcome you care about—not simply the one that feels safest."
+      },
+      {
+        "type": "paragraph",
+        "text": "There was a time when companies could afford to be slow about many of these decisions. Markets changed, but often slowly enough that waiting six months for more information was itself relatively low risk. That assumption is becoming harder to defend."
+      },
+      {
+        "type": "heading",
+        "text": "What Are You Trying to Win?"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a question I think more leadership teams should ask before important decisions:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Are we making this decision because it gives us the best chance of getting where we want to go, or because it does the best job of protecting us if things go wrong?"
+      },
+      {
+        "type": "paragraph",
+        "text": "That’s what makes playing not to lose so deceptive. It can feel like the responsible choice right up until you realize what the company missed. Because the biggest decisions in business aren’t always the ones you make. Sometimes they’re the ones you don’t."
+      },
+      {
+        "type": "cta",
+        "text": "If you’re rethinking how work gets done in the age of AI, we’d be happy to compare notes. {{Schedule a consultation}}"
+      }
+    ]
+  },
+  "how-to-build-an-ai-native-marketing-organization": {
+    "title": "How to Build An AI-Native Marketing Organization",
+    "slug": "how-to-build-an-ai-native-marketing-organization",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The hard part isn’t the AI. It’s redesigning the work around it."
+      },
+      {
+        "type": "paragraph",
+        "text": "We get asked at least twice a week how marketing leaders can make their organizations “AI-native.” Much of the interest comes from the fact that we run our full GTM operation using AI agent-powered workflows. People see the output and naturally want to know which agents we use, which models sit underneath them, and which tools they should buy."
+      },
+      {
+        "type": "paragraph",
+        "text": "Those are reasonable questions, but they are usually the wrong place to start. The companies getting the most leverage from AI aren’t simply adding agents to the marketing organization they already have. They are reconsidering how the organization works in the first place."
+      },
+      {
+        "type": "paragraph",
+        "text": "Take an existing process—with all its handoffs, meetings, approvals, software, spreadsheets, and accumulated habits—and sprinkle AI across it, and you will probably make parts of it faster. But you have also preserved a system designed around the limitations of humans and software that existed before AI. The more interesting question is: Knowing what AI can do today, would you still design the work this way? Increasingly, the answer is no."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here are the five steps we share with marketing leaders trying to get real operating leverage from AI."
+      },
+      {
+        "type": "heading",
+        "text": "Start with the work, not the tools"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most AI conversations begin with technology. Should we use ChatGPT or Claude? Should we build an agent? What can we automate? Which AI features should we turn on?"
+      },
+      {
+        "type": "paragraph",
+        "text": "We start somewhere else. Pick an important marketing workflow and map how the work actually gets done—from the initial idea or market signal through research, creation, review, approval, distribution, measurement, and whatever happens next. Don’t map the process as it appears in a procedure document. Map what people actually do."
+      },
+      {
+        "type": "paragraph",
+        "text": "You will probably find a surprising amount of invisible work. Someone copies information between systems. Someone turns meeting notes into a brief. Someone checks whether content matches the brand. Someone waits two days for an approval. Someone reformats the same idea for five channels. Someone else collects performance data and puts it into a deck."
+      },
+      {
+        "type": "paragraph",
+        "text": "Individually, none looks terribly inefficient. Collectively, they become the operating system of the marketing organization. Once you can see the whole workflow, ask the harder question: Which of these steps still need to exist? That is different from asking which steps AI can make faster. One improves the existing workflow. The other creates the possibility of designing a different one."
+      },
+      {
+        "type": "heading",
+        "text": "Decide what humans should own"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a tendency to approach AI by asking what work we can take away from people. We think the better question is what work people should own."
+      },
+      {
+        "type": "paragraph",
+        "text": "When AI can research, synthesize, draft, analyze, personalize, and execute at extraordinary speed, the value of human contribution changes. Judgment, taste, strategy, relationships, creativity, and accountability become more important. When production becomes cheap and fast, judgment becomes more valuable."
+      },
+      {
+        "type": "paragraph",
+        "text": "Content is an easy example. Producing a first draft once consumed a meaningful portion of the work. Today, an agent can produce one in seconds. But deciding whether the idea is worth pursuing, whether the argument is interesting, whether it sounds like you, and whether you should publish it at all is different. Those decisions matter even more when the organization can suddenly produce far more content than anyone needs."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI-native design isn’t about removing humans from the process. It is about being deliberate about where they add something the machines can’t. The goal isn’t fewer humans in the workflow. It’s making sure they are doing the work where being human actually matters."
+      },
+      {
+        "type": "heading",
+        "text": "Give agents jobs, not tasks"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where many companies get stuck. They accumulate prompts, automations, copilots, and AI features while people remain responsible for connecting everything together."
+      },
+      {
+        "type": "paragraph",
+        "text": "Someone asks AI to research an account. Someone else uses it to draft an email. Marketing uses another tool to create content. Operations builds an automation to move data between systems. Each task gets faster, but the workflow remains largely human-powered. That isn’t an AI-native operating model. It is a collection of AI-assisted tasks."
+      },
+      {
+        "type": "paragraph",
+        "text": "We prefer to think of agents more like people with specialized jobs. A good employee has a role. They understand what they are responsible for, what information they need, what good work looks like, who hands work to them, and where their work goes next. Agents need much the same thing."
+      },
+      {
+        "type": "paragraph",
+        "text": "One agent might own research. Another turns market signals into content opportunities. Another drafts. Another evaluates the draft against brand and editorial standards. Another prepares channel-specific versions, while another monitors performance and feeds what it learns back into the system."
+      },
+      {
+        "type": "paragraph",
+        "text": "The important part isn’t any individual agent. It is how those jobs fit together and how the work moves between them. Once agents have jobs rather than isolated tasks, AI starts behaving less like software people occasionally use and more like part of the operating system of the organization."
+      },
+      {
+        "type": "heading",
+        "text": "Redesign the organization around the new workflow"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is the step companies are most tempted to skip. They redesign the work but leave the organization around it untouched."
+      },
+      {
+        "type": "paragraph",
+        "text": "If the workflow changes substantially, eventually everything around it has to be reconsidered: roles, responsibilities, approvals, meetings, software, management layers, and sometimes even the org chart."
+      },
+      {
+        "type": "paragraph",
+        "text": "Suppose a marketing campaign once required five systems, four specialists, three approvals, and two weeks to move from idea to market. If agents can now perform much of the research, production, QA, distribution, and analysis, it makes little sense to preserve every handoff simply because that is how the department has historically operated."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some steps disappear and some software becomes unnecessary. Jobs may get broader, while certain human responsibilities become more important because people are overseeing systems that can produce and act at enormous scale. This is why we think the organizational impact of AI will eventually be larger than the productivity impact. The first wave is about doing existing work faster. The next is realizing that faster, cheaper, increasingly autonomous work allows you to organize the company differently."
+      },
+      {
+        "type": "heading",
+        "text": "Measure the system, not the AI"
+      },
+      {
+        "type": "paragraph",
+        "text": "Companies love measuring AI. How many employees are using it? How many agents have we deployed? How many prompts are being run? How many hours did AI theoretically save?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Those numbers can be interesting, but none tells you whether marketing got better. The unit of measurement should be the workflow. Did the time from signal to campaign shrink from ten days to two? Did the cost of producing content fall? Can the same team support twice as many campaigns? Did quality or conversion improve? Are opportunities moving faster? Did software costs disappear because agents absorbed work previously spread across multiple applications?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Ultimately, the question is whether the system produces a better business outcome. An agent can perform perfectly while the workflow around it remains terrible. You can have enormous AI usage without changing much of anything. The objective isn’t more AI. It is better work."
+      },
+      {
+        "type": "heading",
+        "text": "The Part Everyone Underestimates"
+      },
+      {
+        "type": "paragraph",
+        "text": "There is one more piece of this that deserves attention: behavior change. Most teams underestimate it by a country mile."
+      },
+      {
+        "type": "paragraph",
+        "text": "You can build an excellent AI-native workflow and still fail because people continue working the old way. They keep their spreadsheets, return to familiar software, manually check work the system already checked, and add approvals because automation makes them nervous. Before long, the new workflow is sitting alongside the old one rather than replacing it, and much of the promised efficiency disappears."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is understandable. The old process may be inefficient, but people know where they fit inside it. AI changes that. People have to trust the new workflow, understand where their judgment matters, and become comfortable giving up work that may have defined part of their job. Managers have to change too. You cannot redesign the work while continuing to manage people against yesterday’s expectations. The technology makes the new workflow possible. Behavior change is what makes it stick."
+      },
+      {
+        "type": "heading",
+        "text": "Build the Organization Again"
+      },
+      {
+        "type": "paragraph",
+        "text": "The opportunity with AI is bigger than helping the marketing organization we already have do more. It gives us a chance to reconsider why that organization works the way it does in the first place."
+      },
+      {
+        "type": "paragraph",
+        "text": "Start with the work rather than the tools. Decide where humans create real value. Give agents jobs rather than tasks. Then be willing to change the roles, systems, and processes around them—and measure whether the resulting operation actually performs better."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a useful thought experiment in all of this. Imagine you were starting your marketing organization from scratch tomorrow. You have the same customers, goals, and people. But you also know everything we now know AI can do. Would you build the same workflows? Buy the same software? Create the same roles? Put in the same handoffs and approvals?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Probably not. And that, more than adding AI to what we already have, is what becoming AI-native is really about."
+      },
+      {
+        "type": "cta",
+        "text": "Can we help transform your business? {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "why-ai-agents-underperform": {
     "title": "Why AI Agents Underperform",
     "slug": "why-ai-agents-underperform",
