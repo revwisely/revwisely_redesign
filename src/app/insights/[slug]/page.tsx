@@ -182,6 +182,18 @@ const videoMap: Record<
     uploadDate: "2026-07-27",
   },
   // Poster is the post's original still, so the insights card and the post hero match.
+  "the-decisions-you-dont-make": {
+    src: "/videos/the-decisions-you-dont-make.mp4",
+    poster: "/images/blog/the-decisions-you-dont-make.jpeg",
+    duration: "PT34S",
+    uploadDate: "2026-09-14",
+  },
+  "how-to-build-an-ai-native-marketing-organization": {
+    src: "/videos/how-to-build-an-ai-native-marketing-organization.mp4",
+    poster: "/images/blog/how-to-build-an-ai-native-marketing-organization.jpeg",
+    duration: "PT33.8S",
+    uploadDate: "2026-09-14",
+  },
   "why-ai-agents-underperform": {
     src: "/videos/why-ai-agents-underperform.mp4",
     poster: "/images/blog/why-ai-agents-underperform.jpeg",
