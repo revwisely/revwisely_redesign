@@ -68,6 +68,9 @@ function firstParagraph(content: unknown): string {
       const text = String((block as { text: unknown }).text ?? "")
         .replace(/<[^>]+>/g, " ")
         .replace(/\s+/g, " ")
+        // Tags become a space, so an inline <em> mid-sentence leaves a gap in
+        // front of the punctuation that followed it ("human in the loop .").
+        .replace(/\s+([.,;:!?])/g, "$1")
         .trim();
       if (text.length > 60) {
         return text.length > 220 ? text.slice(0, 217).trimEnd() + "..." : text;
