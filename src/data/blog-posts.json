@@ -1,4 +1,182 @@
 {
+  "the-human-in-the-loop-trap": {
+    "title": "The Human-in-the-Loop Trap",
+    "slug": "the-human-in-the-loop-trap",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "A phrase shows up in almost every serious conversation we have about AI: <em>human in the loop</em>. It has become something of a security blanket. We are comfortable letting AI research a market, draft an email, update a CRM record, or recommend an action as long as, somewhere before anything consequential happens, a person looks at the work and gives it the nod."
+      },
+      {
+        "type": "paragraph",
+        "text": "Boston Consulting Group wrote an interesting piece about this called <em>You Won’t Get GenAI Right If You Get Human Oversight Wrong</em>. They argue that organizations have become far too casual about the human half of human-in-the-loop. We spend enormous amounts of time engineering the AI and remarkably little thinking about the person who is supposed to supervise it."
+      },
+      {
+        "type": "paragraph",
+        "text": "BCG identifies several reasons this breaks down. People develop automation bias. If the machine has been right the last 99 times, the hundredth review isn’t likely to receive the same attention as the first. Reviewers may lack enough context to know whether an answer is right. Investigating it can take longer than producing it manually. And often people haven’t been given objective criteria for determining what good looks like."
+      },
+      {
+        "type": "paragraph",
+        "text": "Their conclusion makes sense: human oversight needs to be designed, not merely assigned. But after spending a lot of time building and operating AI-native workflows, I think there is another question worth asking first: does the human need to be there at all?"
+      },
+      {
+        "type": "heading",
+        "text": "The Bottleneck Moved"
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine your marketing team once produced ten pieces of content a week. You introduce AI and suddenly it can produce 100. That looks like a tenfold productivity improvement. But if someone must carefully read, fact-check, edit and approve all 100 before anything moves forward, the constraint didn’t disappear. It moved downstream."
+      },
+      {
+        "type": "paragraph",
+        "text": "We see versions of this everywhere. AI conducts account research, and a salesperson checks it. An agent updates CRM records, and someone reviews the fields. AI drafts outbound messages, and the sales rep approves every one. A content workflow creates a draft in minutes, then waits two days for the marketing leader who knows what the company should sound like."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is nothing wrong with this while a workflow is being developed. Early on, we want people looking closely because we’re discovering where the system fails, what context it lacks and which assumptions we got wrong."
+      },
+      {
+        "type": "paragraph",
+        "text": "The problem comes when that temporary arrangement becomes the operating model. The machine keeps getting faster while the human remains exactly as fast as a human has always been."
+      },
+      {
+        "type": "heading",
+        "text": "Humans Are Pretty Bad Quality-Control Systems"
+      },
+      {
+        "type": "paragraph",
+        "text": "BCG makes a particularly good point about automation bias. A reviewer sees enough correct outputs and eventually begins trusting the system. The rigorous review becomes a skim and eventually an approval click. The human remains in the workflow diagram, but the safeguard isn’t doing much safeguarding."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine hiring someone with this job: inspect 500 nearly identical records every day. Four hundred and ninety-eight will probably be correct. Somewhere in there may be two mistakes. Find them."
+      },
+      {
+        "type": "paragraph",
+        "text": "We wouldn’t call that a particularly good use of human talent. Yet we’re designing AI systems that depend on people doing essentially that. Machines, on the other hand, don’t get bored on record 347."
+      },
+      {
+        "type": "paragraph",
+        "text": "A surprising amount of what gets called human oversight isn’t really judgment at all. It is verification. Did the output follow instructions? Are all required fields present? Is a claim supported by the source material? Did the system use prohibited language? Does the recommendation meet defined criteria?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Increasingly, machines can answer those questions too. In our workflows, we routinely have agents inspect the work of other agents against defined standards, sometimes through several checks before the work goes anywhere near a person."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of this makes the system infallible. It preserves human attention for the things humans are actually good at."
+      },
+      {
+        "type": "heading",
+        "text": "Verification and Judgment"
+      },
+      {
+        "type": "paragraph",
+        "text": "I’ve started to think there are really two jobs hiding inside the phrase human in the loop: verification and judgment."
+      },
+      {
+        "type": "paragraph",
+        "text": "Verification asks whether something complies with a standard we can describe. Judgment is what happens when the answer isn’t sitting neatly inside a rule."
+      },
+      {
+        "type": "paragraph",
+        "text": "A machine can increasingly determine whether content follows our messaging rules. A human may still be better at deciding whether this is the message we should put into the world right now. An agent can determine whether an opportunity meets our stated qualification criteria. A salesperson may know something about this buyer that makes it worth pursuing anyway."
+      },
+      {
+        "type": "paragraph",
+        "text": "Risk matters too. BCG recommends differentiating oversight based on risk rather than treating every AI output equally. An internal meeting summary is not a contract. Updating a CRM field isn’t changing a customer’s price. Drafting an email isn’t sending it. Yet many companies begin with essentially the same governance rule for all of them: have a person check it."
+      },
+      {
+        "type": "paragraph",
+        "text": "At small volumes, that feels safe. At scale, it can become a very expensive way to create the appearance of control."
+      },
+      {
+        "type": "heading",
+        "text": "Build the Judgment Into the Work"
+      },
+      {
+        "type": "paragraph",
+        "text": "The first AI workflows tend to be wonderfully simple:"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>AI does something → Human checks it → Work continues.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "text": "The ones we build today increasingly look different:"
+      },
+      {
+        "type": "paragraph",
+        "text": "<strong>AI does something → AI evaluates it → Risk or confidence is determined → Exceptions go to a human → Work continues.</strong>"
+      },
+      {
+        "type": "paragraph",
+        "text": "The human is no longer standing beside the machine watching everything it does. The system handles predictable work and brings the person what is unusual, ambiguous, consequential or outside the rules."
+      },
+      {
+        "type": "paragraph",
+        "text": "Modern aviation works much this way. Pilots don’t manually control every component of an airplane because human judgment matters. Automation handles enormous amounts of normal operation precisely so pilots can pay attention when their judgment matters most."
+      },
+      {
+        "type": "paragraph",
+        "text": "Something else happens when you operate AI workflows this way: exceptions become valuable. Every time a human overrides the system, you learn something. Maybe the agent lacked context, the evaluation criteria were wrong, or a rule needs an exception. Sometimes the human was wrong. Either way, the disagreement tells you something useful."
+      },
+      {
+        "type": "paragraph",
+        "text": "The person isn’t just checking the AI anymore. The person is showing you where the boundaries of the system actually are."
+      },
+      {
+        "type": "heading",
+        "text": "The Loop Should Shrink"
+      },
+      {
+        "type": "paragraph",
+        "text": "The amount of human oversight shouldn’t remain constant. When we first deploy a workflow, we may review nearly everything because we want to see the mistakes and understand the edge cases."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then we fix things. Add context. Tighten instructions. Improve evaluators. Create escalation rules. Run it again."
+      },
+      {
+        "type": "paragraph",
+        "text": "If we’re doing that well, human intervention should begin to fall. Perhaps humans review 100 percent initially, then 50 percent, then 20 percent, and eventually only the exceptions. The percentages aren’t important. The direction is."
+      },
+      {
+        "type": "paragraph",
+        "text": "If six months after deploying an AI workflow people are still reviewing everything it produces, I would question whether the workflow has really been automated. More likely, one task inside the old workflow has been made faster while the operating model around it remains largely untouched."
+      },
+      {
+        "type": "paragraph",
+        "text": "Adding AI to the work and redesigning the work around what AI can now do are two very different things."
+      },
+      {
+        "type": "heading",
+        "text": "What Are the Humans For?"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is a new question we’re asking ourselves. Humans were everywhere because humans were the only general-purpose intelligence available. They researched, summarized, classified, checked and moved information—and, somewhere in between, exercised judgment."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI is beginning to separate those things. That doesn’t make people less important. It makes it clearer where they add the most value. Which brings me back to BCG. They are right that human oversight needs to be designed. But before designing it, ask a simpler question: What is the human actually there to do?"
+      },
+      {
+        "type": "paragraph",
+        "text": "If the answer is checking formatting, verifying facts, confirming rules were followed or inspecting hundreds of mostly correct outputs, the system should eventually be doing that work. The goal isn’t to get humans out of the loop. It’s to put them where their judgment actually changes the outcome."
+      },
+      {
+        "type": "paragraph",
+        "text": "I suspect that’s where some of the biggest productivity gains from AI are hiding."
+      },
+      {
+        "type": "cta",
+        "text": "Discover how we can help you transform your business. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "the-decisions-you-dont-make": {
     "title": "The Decisions You Don’t Make",
     "slug": "the-decisions-you-dont-make",

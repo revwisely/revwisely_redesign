@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "The Decisions You Don’t Make",
-  image: "/images/blog/the-decisions-you-dont-make.jpeg",
-  slug: "the-decisions-you-dont-make",
+  title: "The Human-in-the-Loop Trap",
+  image: "/images/blog/the-human-in-the-loop-trap.jpeg",
+  slug: "the-human-in-the-loop-trap",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "The Decisions You Don’t Make",
+    image: "/images/blog/the-decisions-you-dont-make.jpeg",
+    slug: "the-decisions-you-dont-make",
+  },
   {
     title: "How to Build An AI-Native Marketing Organization",
     image: "/images/blog/how-to-build-an-ai-native-marketing-organization.jpeg",
