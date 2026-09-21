@@ -183,6 +183,12 @@ const videoMap: Record<
     uploadDate: "2026-07-27",
   },
   // Poster is the post's original still, so the insights card and the post hero match.
+  "the-human-in-the-loop-trap": {
+    src: "/videos/the-human-in-the-loop-trap.mp4",
+    poster: "/images/blog/the-human-in-the-loop-trap.jpeg",
+    duration: "PT35S",
+    uploadDate: "2026-09-21",
+  },
   "the-decisions-you-dont-make": {
     src: "/videos/the-decisions-you-dont-make.mp4",
     poster: "/images/blog/the-decisions-you-dont-make.jpeg",
