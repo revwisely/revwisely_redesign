@@ -1,4 +1,154 @@
 {
+  "ai-is-exposing-whats-wrong-with-your-crm": {
+    "title": "AI Is Exposing What’s Wrong With Your CRM",
+    "slug": "ai-is-exposing-whats-wrong-with-your-crm",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "We keep encountering a moment when companies start applying AI to their go-to-market operation. The conversation begins with automation. A team wants an agent to qualify inbound leads, prepare account briefs, identify expansion opportunities, update opportunities after sales calls, flag deals at risk, or route prospects to the right person."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of these ideas is exotic anymore. In many cases, the technology is the easy part."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then we look at the CRM. Opportunity stages mean different things to different salespeople. Close dates are aspirational. Contacts are duplicated. Account hierarchies are unreliable. Important information lives in call transcripts, Slack threads, spreadsheets, and the heads of experienced employees. There are fields nobody remembers creating and fields everyone is supposed to complete but rarely does."
+      },
+      {
+        "type": "paragraph",
+        "text": "That’s usually when we discover the AI is the easy part. It is a CRM project that AI happened to uncover."
+      },
+      {
+        "type": "paragraph",
+        "text": "For years, companies have been able to live with this because humans are remarkably good at compensating for imperfect systems. We know which fields matter and which can be ignored. We recognize that an opportunity marked Stage 4 isn’t really Stage 4. AI doesn’t have years of organizational scar tissue to draw upon. It sees the system we built, and that is becoming a problem."
+      },
+      {
+        "type": "heading",
+        "text": "Humans Have Been Covering for the CRM"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most CRMs didn’t become complicated because someone set out to make them complicated. Complexity accumulated. A sales leader wanted another qualification field. Marketing needed campaign attribution. Finance wanted contract information. Customer Success wanted renewal dates. RevOps added validation rules. Someone created a custom object for a process that no longer exists."
+      },
+      {
+        "type": "paragraph",
+        "text": "Each decision probably made sense at the time. A decade later, the CRM can look like an old house renovated by six different owners. Everything technically works, but there are light switches nobody understands."
+      },
+      {
+        "type": "paragraph",
+        "text": "People learn to navigate around this. Salespeople know which fields they actually need to update. Managers know which reports require interpretation. RevOps knows which data can be trusted. Someone maintains a spreadsheet because the CRM doesn’t quite answer an important question. Customer knowledge gets distributed across email, call recordings, Slack, documents, and people’s memories."
+      },
+      {
+        "type": "paragraph",
+        "text": "It isn’t particularly efficient, but it can survive for years because people fill the gaps. Then you introduce AI."
+      },
+      {
+        "type": "heading",
+        "text": "Automation Makes Bad Data More Expensive"
+      },
+      {
+        "type": "paragraph",
+        "text": "One of the great promises of AI is that systems can increasingly act rather than simply inform. An agent can research an account, interpret a conversation, update a record, trigger a sequence, recommend the next action, route an opportunity, or identify something a human should investigate."
+      },
+      {
+        "type": "paragraph",
+        "text": "That is also what makes bad data more consequential. If a salesperson sees the wrong industry classification in a CRM, she may recognize the mistake and ignore it. If an automated workflow uses that field to determine which message a prospect receives, the error moves downstream immediately."
+      },
+      {
+        "type": "paragraph",
+        "text": "The same is true of stale opportunity stages, incorrect territories, missing buying roles, duplicate contacts, bad account hierarchies, or unreliable renewal dates. Automation doesn’t necessarily fix bad data. Sometimes it simply gives bad data somewhere to go. And because AI workflows can operate across thousands of records, the consequences scale quickly. A problem that once created an inaccurate dashboard can now create an inaccurate action."
+      },
+      {
+        "type": "paragraph",
+        "text": "Companies spent years thinking about CRM data primarily as something used for reporting. Now AI is using that same data to decide what happens next. Data that was good enough for a dashboard may not be good enough when AI is taking action."
+      },
+      {
+        "type": "heading",
+        "text": "Your CRM May Be Too Complicated"
+      },
+      {
+        "type": "paragraph",
+        "text": "We tend to treat CRM complexity as inevitable. Enterprise software is complicated because businesses are complicated. I’m no longer sure that’s a particularly useful assumption."
+      },
+      {
+        "type": "paragraph",
+        "text": "Most CRM systems were designed around a world in which humans did nearly all of the work. Humans needed screens, forms, dropdown menus, dashboards, reports, queues, tabs, fields, reminders, and buttons because that was how information moved through the business."
+      },
+      {
+        "type": "paragraph",
+        "text": "Agents don’t work that way. An agent doesn’t care whether a field is three clicks away. It doesn’t need a dashboard to tell it which opportunities haven’t been touched in fourteen days. It doesn’t need a salesperson to copy information from a conversation into six different fields if it can extract the information directly."
+      },
+      {
+        "type": "paragraph",
+        "text": "So how much of the CRM we’ve built for humans still needs to exist if agents are going to do more of the work? My guess is, quite a bit of it doesn’t. That doesn’t mean the CRM disappears. A reliable system of record becomes more important when AI is acting on its contents. But the interface and processes surrounding it can become much simpler."
+      },
+      {
+        "type": "paragraph",
+        "text": "The salesperson shouldn’t be responsible for updating fifteen fields after a customer meeting. Maybe the conversation itself should become the input. AI extracts what matters, updates what it can confidently determine, and asks the salesperson to resolve the two things requiring judgment. The salesperson’s job changes from data entry to exception handling."
+      },
+      {
+        "type": "heading",
+        "text": "Don’t Automate the Mess"
+      },
+      {
+        "type": "paragraph",
+        "text": "The mistake is to look at an inefficient process and immediately ask how AI can automate it. We think the better first question is whether the process should still exist."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine salespeople spend ten minutes after every customer call updating CRM records. It would be easy to build an agent that performs those updates automatically. That sounds like progress. But why are those particular fields being captured? Who uses them? Which actually influence a decision? Which exist because someone requested them five years ago? Could some information be derived rather than explicitly stored?"
+      },
+      {
+        "type": "paragraph",
+        "text": "If you automate before answering those questions, you may simply build a faster version of an unnecessarily complicated process."
+      },
+      {
+        "type": "paragraph",
+        "text": "Knowing what we know AI can do today, would we still design the work this way? We have found that question much more useful than, “Where can we add AI?”"
+      },
+      {
+        "type": "heading",
+        "text": "Start With the Minimum Trusted Data"
+      },
+      {
+        "type": "paragraph",
+        "text": "The answer isn’t necessarily a massive CRM cleanup project. Few executives get excited when someone proposes spending nine months fixing Salesforce before the company can do anything interesting with AI. And they shouldn’t."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is a more practical approach. Start with the job you want AI to perform. Identify the minimum information required to perform that job reliably. Determine where it lives, how trustworthy it is, and what needs to change. Clean that layer, establish ownership, put controls around the handful of data points that matter, and then build the workflow."
+      },
+      {
+        "type": "paragraph",
+        "text": "A meeting-to-opportunity workflow, for example, doesn’t require every CRM record to be perfect. It needs reliable account and contact identity, a clear opportunity model, access to the conversation, agreed definitions for the information that matters, and rules governing what AI can update automatically versus what requires human confirmation. Once that works, move outward. Now the data cleanup has a purpose. You’re fixing the data because a specific workflow needs it, not because someone decided the CRM needs to be cleaner."
+      },
+      {
+        "type": "paragraph",
+        "text": "The workflow creates the reason to improve the data, and the improved data makes the next workflow easier."
+      },
+      {
+        "type": "heading",
+        "text": "The AI-Ready CRM May Be a Simpler CRM"
+      },
+      {
+        "type": "paragraph",
+        "text": "For the past twenty years, companies have responded to new requirements by adding things to their CRM: more fields, objects, integrations, dashboards, and workflows."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI may push us in the opposite direction. Some of the best AI workflows we’ve seen start by eliminating unnecessary steps and automating what’s left. The CRM becomes simpler, and people spend less time maintaining it. Messy CRM data isn’t just an obstacle to AI. It’s a signal that years of complexity and workarounds have accumulated underneath the system."
+      },
+      {
+        "type": "paragraph",
+        "text": "The opportunity isn’t to clean everything up so AI can operate the CRM we’ve already built. It’s to use AI as the reason to rethink what the CRM should be."
+      },
+      {
+        "type": "cta",
+        "text": "Discover how we can help you transform your business. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "the-human-in-the-loop-trap": {
     "title": "The Human-in-the-Loop Trap",
     "slug": "the-human-in-the-loop-trap",

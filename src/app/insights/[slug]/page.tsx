@@ -12,6 +12,7 @@ const data = blogData as Record<string, {
 
 // Image map for posts that have hero images
 const imageMap: Record<string, string> = {
+  "ai-is-exposing-whats-wrong-with-your-crm": "/images/blog/ai-is-exposing-whats-wrong-with-your-crm.jpeg",
   "the-human-in-the-loop-trap": "/images/blog/the-human-in-the-loop-trap.jpeg",
   "the-decisions-you-dont-make": "/images/blog/the-decisions-you-dont-make.jpeg",
   "how-to-build-an-ai-native-marketing-organization": "/images/blog/how-to-build-an-ai-native-marketing-organization.jpeg",
