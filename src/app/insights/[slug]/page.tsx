@@ -177,6 +177,12 @@ const videoMap: Record<
   string,
   { src: string; poster: string; duration: string; uploadDate: string }
 > = {
+  "ai-is-exposing-whats-wrong-with-your-crm": {
+    src: "/videos/ai-is-exposing-whats-wrong-with-your-crm.mp4",
+    poster: "/images/blog/ai-is-exposing-whats-wrong-with-your-crm.jpeg",
+    duration: "PT37.7S",
+    uploadDate: "2026-09-28",
+  },
   "the-future-belongs-to-ai-workflow-companies": {
     src: "/videos/ai-workflow-hero.mp4",
     poster: "/images/ai-workflow-hero-poster.jpg",
