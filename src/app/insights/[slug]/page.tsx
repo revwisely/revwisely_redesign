@@ -178,6 +178,12 @@ const videoMap: Record<
   string,
   { src: string; poster: string; duration: string; uploadDate: string }
 > = {
+  "why-good-ai-fails": {
+    src: "/videos/why-good-ai-fails.mp4",
+    poster: "/images/blog/why-good-ai-fails.jpeg",
+    duration: "PT44.9S",
+    uploadDate: "2026-10-05",
+  },
   "ai-is-exposing-whats-wrong-with-your-crm": {
     src: "/videos/ai-is-exposing-whats-wrong-with-your-crm.mp4",
     poster: "/images/blog/ai-is-exposing-whats-wrong-with-your-crm.jpeg",
