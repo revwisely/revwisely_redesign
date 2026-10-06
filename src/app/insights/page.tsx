@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "AI Is Exposing What’s Wrong With Your CRM",
-  image: "/images/blog/ai-is-exposing-whats-wrong-with-your-crm.jpeg",
-  slug: "ai-is-exposing-whats-wrong-with-your-crm",
+  title: "Why Good AI Fails",
+  image: "/images/blog/why-good-ai-fails.jpeg",
+  slug: "why-good-ai-fails",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "AI Is Exposing What’s Wrong With Your CRM",
+    image: "/images/blog/ai-is-exposing-whats-wrong-with-your-crm.jpeg",
+    slug: "ai-is-exposing-whats-wrong-with-your-crm",
+  },
   {
     title: "The Human-in-the-Loop Trap",
     image: "/images/blog/the-human-in-the-loop-trap.jpeg",

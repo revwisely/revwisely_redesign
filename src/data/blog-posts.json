@@ -1,4 +1,138 @@
 {
+  "why-good-ai-fails": {
+    "title": "Why Good AI Fails",
+    "slug": "why-good-ai-fails",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "The more AI systems we build, the less often I blame the AI when something doesn’t work. That wasn’t always true. The models had obvious limitations. They hallucinated more, struggled with context, and the tooling around them was immature. Sometimes the answer really was that the technology wasn’t ready."
+      },
+      {
+        "type": "paragraph",
+        "text": "That explanation is getting harder to use. The models are considerably better. The infrastructure has improved. Companies have access to extraordinary technology for relatively little money. Yet we still see AI initiatives that start with great enthusiasm, produce an impressive demo, and then struggle to change how the business actually operates."
+      },
+      {
+        "type": "paragraph",
+        "text": "Usually, the problem isn’t the model. It’s how the company applied it. After building AI into our own GTM operation and working with companies trying to do the same, we’ve started seeing the same mistakes repeatedly. None is particularly technical. Most look a lot like ordinary operating mistakes that happen to have AI sitting in the middle of them."
+      },
+      {
+        "type": "heading",
+        "text": "1. Automating a Bad Process"
+      },
+      {
+        "type": "paragraph",
+        "text": "This may be the easiest mistake to make because automation feels like progress. A team has a process that takes too long, requires too many people or involves a lot of manual work. Someone says, “AI could automate this.” Often, they’re right. The more important question is whether the process should exist in its current form at all."
+      },
+      {
+        "type": "paragraph",
+        "text": "We see workflows containing steps created years ago because of limitations that no longer exist. Information gets moved between systems. Someone reviews something because historically someone always has. Reports get created that few people read. Approvals exist because the old technology couldn’t reliably make a decision. Automating those steps just helps you do unnecessary work faster."
+      },
+      {
+        "type": "paragraph",
+        "text": "Before we build, we ask a more uncomfortable question: Knowing what AI can do today, would we still design the work this way? We map the workflow from beginning to end and ask why each step exists, what value it creates and what would happen if we removed it. Quite a few things don’t survive that conversation. Then we redesign what remains and only after that start thinking about automation."
+      },
+      {
+        "type": "heading",
+        "text": "2. Building Before Defining Success"
+      },
+      {
+        "type": "paragraph",
+        "text": "“We want to build an AI agent for this.” We hear some version of that often. The problem is that an agent isn’t an outcome."
+      },
+      {
+        "type": "paragraph",
+        "text": "Companies get excited about what the technology can do, so experimentation begins before anyone agrees on what success should look like. A prototype gets built. People are impressed. Then somebody asks the awkward question: Is this actually working? Nobody quite knows."
+      },
+      {
+        "type": "paragraph",
+        "text": "We try to settle that before building anything. What should become faster? Cheaper? Better? And by how much? If a workflow takes ten hours a week, perhaps the objective is two. If five people touch a process, maybe the goal is one. If a lead takes 24 hours to reach a salesperson, perhaps the target is five minutes. If humans correct 30 percent of the output, maybe success means getting below 5 percent."
+      },
+      {
+        "type": "paragraph",
+        "text": "I don’t particularly care whether the first target turns out to be exactly right. I care that there is one. Otherwise, six weeks later everyone is debating whether the agent is “working” when nobody agreed what working meant."
+      },
+      {
+        "type": "heading",
+        "text": "3. Underestimating Context"
+      },
+      {
+        "type": "paragraph",
+        "text": "When an AI system produces mediocre work, the instinct is often to work on the prompt. Make it longer. Add instructions. Rewrite it. Try another model. Sometimes that helps. But often the prompt is being asked to compensate for something more fundamental: the AI doesn’t know enough."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine hiring a talented employee and asking her to write an important customer proposal on her first morning. You give her excellent instructions but no customer history, product knowledge, successful examples, pricing rules or competitive context. Then you’re disappointed with the draft. That is roughly how many companies deploy AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "What surrounds the model often matters as much as the model itself: customer data, company knowledge, historical examples, business rules, previous decisions, brand judgment and the exceptions people have learned through experience."
+      },
+      {
+        "type": "paragraph",
+        "text": "We think of this as a context layer—the institutional knowledge the system needs to do the job well. When output disappoints, rather than immediately reaching for another heroic prompt, we ask: What would a really good employee need to know to perform this job? Then we look at how much of that the AI actually knows. The gap is often pretty revealing."
+      },
+      {
+        "type": "heading",
+        "text": "4. Designing for the Happy Path"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI demos are wonderful places. The data is clean. Required fields are populated. The customer asks a recognizable question. Systems connect properly. The workflow runs from beginning to end and everyone nods appreciatively."
+      },
+      {
+        "type": "paragraph",
+        "text": "Then Monday morning arrives. A CRM field is empty. A prospect uses an acronym nobody anticipated. Two systems contain different company names. An API times out. The AI doesn’t have enough information to make a decision. Real businesses are messy."
+      },
+      {
+        "type": "paragraph",
+        "text": "A demo proves a workflow can work. Production tells you whether it can survive. That means spending much more time on what happens when things go sideways. What happens when the system isn’t confident? What information is mandatory? When should it stop or retry? When does a human genuinely need to become involved?"
+      },
+      {
+        "type": "paragraph",
+        "text": "We’ve learned to try to break a workflow before trusting it. Give it a half-empty CRM record. Remove something it expects. Feed it conflicting information. Ask it something weird. That usually teaches us more than another hour improving the prompt. We aren’t trying to build a system that never encounters uncertainty. We’re trying to build one that behaves sensibly when it does."
+      },
+      {
+        "type": "heading",
+        "text": "5. Failing to Instrument the Workflow"
+      },
+      {
+        "type": "paragraph",
+        "text": "This may be the mistake that surprises me most. Companies spend considerable time building an AI workflow, put it into production and then know remarkably little about what it is doing."
+      },
+      {
+        "type": "paragraph",
+        "text": "Did it complete the job? How often did it fail? Where did humans intervene? How long did it take? What did each run cost? Did it produce the business improvement we expected? We would never accept this level of visibility from an important piece of software, yet AI workflows are often launched and largely left alone."
+      },
+      {
+        "type": "paragraph",
+        "text": "In our own operation, we track workflow success rates, PASS/FAIL results, LLM costs, exceptions and human intervention. Not because we need another dashboard, but because this tells us what to fix next."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where the gains start to compound. A workflow goes live at version one. We watch it, find where it gets confused, improve the context, remove unnecessary human intervention and tighten the economics. Then we do it again. I don’t think the companies that get the most from AI will necessarily have the most agents. They’ll be the ones that get unusually good at making the agents they already have better."
+      },
+      {
+        "type": "heading",
+        "text": "The AI Isn’t Always the Problem"
+      },
+      {
+        "type": "paragraph",
+        "text": "What I find encouraging is that most of these problems don’t require us to wait for the next model release. The mistakes are much more familiar: automating work that should have been redesigned, building without clear objectives, providing too little context, ignoring exceptions and neglecting to measure what happens afterward. All of those are within our control."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI deserves plenty of scrutiny. It will make mistakes, and some jobs remain beyond what the technology can reliably handle today. But AI also gets blamed for a surprising amount of bad implementation."
+      },
+      {
+        "type": "paragraph",
+        "text": "So when an AI initiative disappoints, I’m becoming less interested in asking, “Why didn’t the AI work?” I’d rather ask: Did we give it a good job, enough information, a way to handle reality and a clear definition of success? Increasingly, that is where I’d look first."
+      },
+      {
+        "type": "cta",
+        "text": "Discover how we can help you transform your business. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "ai-is-exposing-whats-wrong-with-your-crm": {
     "title": "AI Is Exposing What’s Wrong With Your CRM",
     "slug": "ai-is-exposing-whats-wrong-with-your-crm",
