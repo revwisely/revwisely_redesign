@@ -1,4 +1,166 @@
 {
+  "reverse-engineering-your-competitors-go-to-market-strategy": {
+    "title": "Reverse Engineering Your Competitor’s Go-to-Market Strategy",
+    "slug": "reverse-engineering-your-competitors-go-to-market-strategy",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "What a trending GitHub project reveals about the future of competitive intelligence."
+      },
+      {
+        "type": "paragraph",
+        "text": "Every so often, I come across something in technology that makes me wonder whether we’ve been going about things the wrong way. Not because the technology itself is revolutionary, but because it challenges assumptions we’ve lived with for so long that we no longer think to question them."
+      },
+      {
+        "type": "paragraph",
+        "text": "A GitHub project called Reverse Engineer Anything (REA) recently caught my attention. The idea is fascinating. AI agents investigate how features in existing software applications work, even without access to the source code. Other agents use those findings to build, test, and validate something similar. Work that once took weeks can potentially be done in a fraction of the time."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’m not a software engineer, so my interest isn’t particularly technical. What caught my attention was the bigger idea. If AI agents can reverse-engineer software, why couldn’t we use the same thinking to figure out how a company goes to market?"
+      },
+      {
+        "type": "paragraph",
+        "text": "We’re exploring exactly that at Revwisely. And I think the implications go well beyond competitive research."
+      },
+      {
+        "type": "heading",
+        "text": "The Way We’ve Always Done It"
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine you’re running a $100 million company and considering entering an adjacent market. You know the major competitors and have a reasonable understanding of their products. But before committing millions of dollars, you need to figure out what you’re getting into."
+      },
+      {
+        "type": "paragraph",
+        "text": "What makes these companies successful? How are they positioned? What do they charge? How do they generate demand? Who are their customers, and how do they sell? Then comes the uncomfortable part. How do you stack up? Where are you stronger, where are you weaker, and what would it take to compete?"
+      },
+      {
+        "type": "paragraph",
+        "text": "I’ve been involved in plenty of these exercises. Typically, you assemble an internal team, hire consultants, or both. People spend weeks researching competitors, interviewing customers, and studying market reports. Eventually, someone pulls everything into a presentation that the leadership team debates and sends back for more work."
+      },
+      {
+        "type": "paragraph",
+        "text": "There’s nothing wrong with this approach. Good research can prevent expensive mistakes. But I’ve always been struck by how much time goes into gathering and organizing information rather than figuring out what to do with it. We pay smart, experienced people to spend an extraordinary amount of time doing work that doesn’t always require their experience."
+      },
+      {
+        "type": "heading",
+        "text": "Turning the Process Upside Down"
+      },
+      {
+        "type": "paragraph",
+        "text": "Now imagine approaching the same problem with a team of specialized AI agents."
+      },
+      {
+        "type": "paragraph",
+        "text": "One agent investigates competitors’ products and pricing. Another examines their positioning and messaging. Others study marketing, customer segments, partnerships, and sales models. They gather information from websites, job postings, customer reviews, product documentation, and industry publications."
+      },
+      {
+        "type": "paragraph",
+        "text": "There’s a surprising amount you can learn about a business without speaking to anyone who works there. Hiring patterns can reveal its sales strategy. Product documentation may expose features that barely appear in marketing. Pricing changes can suggest where a company is heading. Its content and partnerships offer clues about which customers it’s pursuing."
+      },
+      {
+        "type": "paragraph",
+        "text": "None of these clues tells the whole story. But together, they can paint a pretty detailed picture of how a company goes to market."
+      },
+      {
+        "type": "paragraph",
+        "text": "Now give another group of agents the job of analyzing your company the same way. Have them figure out where you’re stronger, where you’re weaker, and where you might have an opening. Then ask another set to recommend how to enter the market, what resources you’ll need, and where to start."
+      },
+      {
+        "type": "paragraph",
+        "text": "Finally, introduce independent reviewer agents to challenge the findings, check sources, and flag anything that doesn’t add up. I’m particularly interested in this last step because an AI system that produces impressive-looking nonsense faster isn’t much of an improvement."
+      },
+      {
+        "type": "heading",
+        "text": "Knowing What a Competitor Does Isn’t Knowing Why It Works"
+      },
+      {
+        "type": "paragraph",
+        "text": "This is where we need to be careful about what we expect from AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "Figuring out what a competitor does isn’t the same as understanding why it succeeds. You can discover its pricing model without knowing what customers actually pay. You can study its marketing without knowing which campaigns generate revenue. You can examine its sales team without knowing whether it’s making money."
+      },
+      {
+        "type": "paragraph",
+        "text": "And you can identify everything a successful competitor appears to be doing and still make a terrible mistake by copying it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Experienced executives, industry experts, and customers understand things that don’t show up in public information. They can tell the difference between what a company says it does and what actually happens."
+      },
+      {
+        "type": "paragraph",
+        "text": "I don’t see AI replacing that kind of judgment anytime soon. Nor do I think it needs to. Instead of spending weeks collecting information and building presentations, we can spend more time testing ideas, talking to customers, questioning assumptions, and making decisions. That’s a much better use of people’s experience."
+      },
+      {
+        "type": "heading",
+        "text": "The Economics Are What Make This Interesting"
+      },
+      {
+        "type": "paragraph",
+        "text": "The biggest implication, in my view, is that more companies can afford the kind of research that used to be out of reach."
+      },
+      {
+        "type": "paragraph",
+        "text": "Large companies can hire strategy teams, commission market studies, and engage consultants. A $50 million company rarely has that luxury. Yet it may face equally important decisions with far fewer resources. As a result, opportunities never get properly investigated. Companies either make decisions with incomplete information or stick with what they already know."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine getting most of the initial research done in a few hours rather than several weeks. Suddenly, a company could afford to evaluate five markets instead of one. It could investigate opportunities that previously weren’t worth the expense and revisit its assumptions every quarter instead of every few years."
+      },
+      {
+        "type": "paragraph",
+        "text": "And it wouldn’t have to start from scratch each time."
+      },
+      {
+        "type": "paragraph",
+        "text": "Once you’ve built an AI workflow that researches competitors, why not have it keep watching for changes? New products, pricing, messaging, partnerships, and hiring patterns could all feed an ongoing competitive research process. Instead of treating competitive research as an occasional project, we can make it part of how the business operates."
+      },
+      {
+        "type": "heading",
+        "text": "This Is About More Than Competitive Research"
+      },
+      {
+        "type": "paragraph",
+        "text": "There’s a temptation to look at this opportunity and conclude that we simply need a better AI research tool. Give someone access to ChatGPT or Claude, teach them to write a good prompt, and let them get on with it."
+      },
+      {
+        "type": "paragraph",
+        "text": "That will help, but I think it misses the bigger opportunity. The research should connect directly to the work that follows."
+      },
+      {
+        "type": "paragraph",
+        "text": "Suppose it finds a gap in your positioning. That should lead to changes in your messaging. An underserved customer segment should influence your marketing and sales efforts. A product weakness should become part of your product planning. The findings should lead to action rather than becoming another presentation that sits on someone’s hard drive."
+      },
+      {
+        "type": "paragraph",
+        "text": "This is what we’re pursuing at Revwisely. We’re interested in changing how work gets done, not just helping people do the same work marginally faster. Making individual tasks more efficient is useful. Rethinking the entire process can save far more time and money while improving quality."
+      },
+      {
+        "type": "heading",
+        "text": "The Cost of Knowing Falls"
+      },
+      {
+        "type": "paragraph",
+        "text": "We’re still early in applying this approach to GTM strategy. There’s plenty to prove, especially around accuracy, reliability, and how much human review is needed. I expect we’ll discover things AI does remarkably well and others where it falls flat on its face."
+      },
+      {
+        "type": "paragraph",
+        "text": "The real test will be whether we can build a process that consistently delivers research we can trust at a fraction of what it used to cost. If we can, the possibilities extend well beyond entering new markets. Think about evaluating acquisition targets, exploring new customer groups, assessing sales channels, or understanding why a competitor is outperforming you."
+      },
+      {
+        "type": "paragraph",
+        "text": "Large companies have always had an advantage when it comes to the resources they can throw at a problem. AI won’t eliminate that advantage, but it could narrow the gap considerably. And for smaller companies willing to rethink how they work, that’s a pretty exciting prospect."
+      },
+      {
+        "type": "cta",
+        "text": "Can we help transform your business? {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "why-good-ai-fails": {
     "title": "Why Good AI Fails",
     "slug": "why-good-ai-fails",

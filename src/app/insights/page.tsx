@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "Why Good AI Fails",
-  image: "/images/blog/why-good-ai-fails.jpeg",
-  slug: "why-good-ai-fails",
+  title: "Reverse Engineering Your Competitor’s Go-to-Market Strategy",
+  image: "/images/blog/reverse-engineering-your-competitors-go-to-market-strategy.jpeg",
+  slug: "reverse-engineering-your-competitors-go-to-market-strategy",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "Why Good AI Fails",
+    image: "/images/blog/why-good-ai-fails.jpeg",
+    slug: "why-good-ai-fails",
+  },
   {
     title: "AI Is Exposing What’s Wrong With Your CRM",
     image: "/images/blog/ai-is-exposing-whats-wrong-with-your-crm.jpeg",
