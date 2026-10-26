@@ -180,6 +180,12 @@ const videoMap: Record<
   string,
   { src: string; poster: string; duration: string; uploadDate: string }
 > = {
+  "ai-fails-when-we-dont-change-how-we-work": {
+    src: "/videos/ai-fails-when-we-dont-change-how-we-work.mp4",
+    poster: "/images/blog/ai-fails-when-we-dont-change-how-we-work.jpeg",
+    duration: "PT42S",
+    uploadDate: "2026-10-26",
+  },
   "why-good-ai-fails": {
     src: "/videos/why-good-ai-fails.mp4",
     poster: "/images/blog/why-good-ai-fails.jpeg",
