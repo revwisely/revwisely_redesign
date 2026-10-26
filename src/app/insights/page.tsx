@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "Reverse Engineering Your Competitor’s Go-to-Market Strategy",
-  image: "/images/blog/reverse-engineering-your-competitors-go-to-market-strategy.jpeg",
-  slug: "reverse-engineering-your-competitors-go-to-market-strategy",
+  title: "AI Fails When We Don’t Change How We Work",
+  image: "/images/blog/ai-fails-when-we-dont-change-how-we-work.jpeg",
+  slug: "ai-fails-when-we-dont-change-how-we-work",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "Reverse Engineering Your Competitor’s Go-to-Market Strategy",
+    image: "/images/blog/reverse-engineering-your-competitors-go-to-market-strategy.jpeg",
+    slug: "reverse-engineering-your-competitors-go-to-market-strategy",
+  },
   {
     title: "Why Good AI Fails",
     image: "/images/blog/why-good-ai-fails.jpeg",

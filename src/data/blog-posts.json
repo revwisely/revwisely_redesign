@@ -1,4 +1,158 @@
 {
+  "ai-fails-when-we-dont-change-how-we-work": {
+    "title": "AI Fails When We Don’t Change How We Work",
+    "slug": "ai-fails-when-we-dont-change-how-we-work",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Why buying AI tools is not enough to improve business results"
+      },
+      {
+        "type": "paragraph",
+        "text": "Like many people, I’m excited by what AI makes possible in a business context. Researching prospects, drafting marketing emails, analyzing data—tasks that once took hours can now take minutes. But faster tasks don’t automatically make a business more productive."
+      },
+      {
+        "type": "paragraph",
+        "text": "If people still have to move information between systems, check the same facts, and chase missing details, how much have we gained? For me, the bigger opportunity is to rethink how the work gets done. That means looking beyond what an AI tool can do and asking what needs to change around it."
+      },
+      {
+        "type": "heading",
+        "text": "The limits of faster tasks"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most business workflows have accumulated over years. Another spreadsheet, another approval, another handoff between departments. People learn the workarounds, and those workarounds become part of the job."
+      },
+      {
+        "type": "paragraph",
+        "text": "My concern is that AI can preserve all that complexity while making individual steps faster. A team might produce twice as many prospect profiles, but if a manager still approves each one in a weekly meeting, outreach waits until Friday. The research improved; the delay that matters remains."
+      },
+      {
+        "type": "paragraph",
+        "text": "That distinction shapes how I assess an opportunity. I want to understand what limits the whole process before deciding which task to automate. Sometimes the answer is a simpler approval rule or clearer responsibilities. AI may help with only one part of the solution."
+      },
+      {
+        "type": "heading",
+        "text": "The business problem comes first"
+      },
+      {
+        "type": "paragraph",
+        "text": "I find it more useful to start with a problem worth solving than a list of AI capabilities. Perhaps promising inquiries sit unanswered, or salespeople spend too much time preparing for meetings."
+      },
+      {
+        "type": "paragraph",
+        "text": "The problem also needs a boundary. “Improve sales productivity” is too broad to guide a useful first project. “Reduce the time between a meeting request and a qualified response” gives the team something concrete to work on."
+      },
+      {
+        "type": "paragraph",
+        "text": "Before choosing a tool, I want to understand where that work begins, who handles it, and what a completed result looks like. Which steps support a decision? Which exist because two systems don’t talk to each other? Which could disappear?"
+      },
+      {
+        "type": "paragraph",
+        "text": "In prospecting, a connected workflow could research a company, check its fit against agreed criteria, and prepare a sourced summary and draft message. Approved information could flow into the customer database without reentry. The reviewer could focus on whether the company is worth pursuing and whether the message is relevant."
+      },
+      {
+        "type": "heading",
+        "text": "The information behind the decisions"
+      },
+      {
+        "type": "paragraph",
+        "text": "A redesigned workflow still depends on the information available to it. If customer records disagree, account ownership is unclear, or qualification criteria live in someone’s head, automation inherits those ambiguities."
+      },
+      {
+        "type": "paragraph",
+        "text": "I want the team to agree on which information is authoritative before connecting the steps. For prospect outreach, that includes the current account owner, customer status, and previous contact history. A well-researched message can still be inappropriate if another salesperson contacted the company yesterday."
+      },
+      {
+        "type": "paragraph",
+        "text": "This doesn’t require cleaning every record before starting. It means identifying the information essential to the chosen workflow and deciding what happens when it is missing. An unknown customer status should lead to a check, rather than an assumption that the company is a new prospect. Access matters too: the workflow should use only information appropriate for the task and the people involved."
+      },
+      {
+        "type": "heading",
+        "text": "Quality checks where they matter"
+      },
+      {
+        "type": "paragraph",
+        "text": "Connecting tasks also connects their mistakes. Imagine an AI agent treats an old news story as a current event. Another uses it to prioritize a prospect, and a third drafts an email around it. The result can sound convincing while being wrong."
+      },
+      {
+        "type": "paragraph",
+        "text": "I want checks where a mistake could undermine the next decision. Important facts need sources. Time-sensitive information needs a date check. An unsupported claim should trigger review before it reaches a customer."
+      },
+      {
+        "type": "paragraph",
+        "text": "The amount of review should reflect the consequences of getting something wrong. An internal research draft and an external message deserve different treatment. Requiring approval for every minor step can create another bottleneck; allowing uncertain information to pass unchecked creates a different problem."
+      },
+      {
+        "type": "paragraph",
+        "text": "Exceptions need a destination as well. When sources conflict, someone should receive the case with enough context to resolve it. Otherwise, a safeguard becomes a growing queue of unfinished work."
+      },
+      {
+        "type": "heading",
+        "text": "Clear ownership and measurable results"
+      },
+      {
+        "type": "paragraph",
+        "text": "For me, a named business owner is a prerequisite for everyday use. Someone needs the authority to set standards, resolve disagreements, and change the process when results fall short. Technical support can fix a connection; the business owner decides whether the workflow serves its purpose."
+      },
+      {
+        "type": "paragraph",
+        "text": "Measures of success belong at the beginning of the pilot. How long does the process take today? How much correction does it require? Are more qualified prospects moving forward?"
+      },
+      {
+        "type": "paragraph",
+        "text": "I also want the full cost in view. Time saved in research can be offset by review, maintenance, or more work for another department. Comparing the complete process before and after the change helps expose that tradeoff."
+      },
+      {
+        "type": "paragraph",
+        "text": "Saved time also needs a purpose. If the aim is more customer conversations, the team should explicitly redirect the recovered capacity toward them. Otherwise, an efficiency gain may never translate into a business result."
+      },
+      {
+        "type": "heading",
+        "text": "The changes people need to make"
+      },
+      {
+        "type": "paragraph",
+        "text": "Adoption deserves its own attention because a technically sound workflow can still be awkward to use. People need to know what has changed in their jobs, which decisions remain theirs, and how to challenge an output they don’t trust."
+      },
+      {
+        "type": "paragraph",
+        "text": "I favor involving the people who do the work while the process is being designed. They can identify exceptions that a process map misses and explain why an apparently unnecessary step exists. That input helps distinguish a useful control from an old habit."
+      },
+      {
+        "type": "paragraph",
+        "text": "Training should use actual work, including a case where the system gets something wrong. People need practice correcting it and continuing the process. Once the replacement is dependable, the team also needs a clear point at which the old spreadsheet or duplicate approval stops. Running both indefinitely consumes the capacity the project was meant to free."
+      },
+      {
+        "type": "heading",
+        "text": "From promising pilot to everyday practice"
+      },
+      {
+        "type": "paragraph",
+        "text": "My preference is to begin with one meaningful problem and a manageable scope. The pilot needs a representative mix of cases, including difficult ones, so the decision to expand reflects everyday conditions."
+      },
+      {
+        "type": "paragraph",
+        "text": "A workflow tested by its most enthusiastic users may look easier than it is. Including colleagues with different experience levels helps reveal whether success depends on special knowledge or support that won’t be available across the business."
+      },
+      {
+        "type": "paragraph",
+        "text": "Before expansion, I want an explicit decision: continue, revise, or stop. A pilot shouldn’t become permanent simply because people have invested effort in it. If the benefit is too small or the review burden remains too high, that is useful information."
+      },
+      {
+        "type": "paragraph",
+        "text": "For a workflow that earns its place, ongoing maintenance belongs in the operating plan. Customer needs, internal policies, and connected systems will change. The people responsible need documentation and a way to recognize declining performance without depending entirely on the original developers."
+      },
+      {
+        "type": "paragraph",
+        "text": "The question I keep coming back to is practical: what will people do differently on Monday morning, and how will we know it helped?"
+      },
+      {
+        "type": "cta",
+        "text": "If you’d like to explore this in your business, schedule a consultation. We can examine one workflow, identify its bottlenecks, and define what a worthwhile improvement would look like. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "reverse-engineering-your-competitors-go-to-market-strategy": {
     "title": "Reverse Engineering Your Competitor’s Go-to-Market Strategy",
     "slug": "reverse-engineering-your-competitors-go-to-market-strategy",
