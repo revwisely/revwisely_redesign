@@ -181,6 +181,12 @@ const videoMap: Record<
   string,
   { src: string; poster: string; duration: string; uploadDate: string }
 > = {
+  "everyone-can-do-more-marketing-now-what": {
+    src: "/videos/everyone-can-do-more-marketing-now-what.mp4",
+    poster: "/images/blog/everyone-can-do-more-marketing-now-what.jpeg",
+    duration: "PT43.4S",
+    uploadDate: "2026-11-02",
+  },
   "ai-fails-when-we-dont-change-how-we-work": {
     src: "/videos/ai-fails-when-we-dont-change-how-we-work.mp4",
     poster: "/images/blog/ai-fails-when-we-dont-change-how-we-work.jpeg",
