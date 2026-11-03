@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "AI Fails When We Don’t Change How We Work",
-  image: "/images/blog/ai-fails-when-we-dont-change-how-we-work.jpeg",
-  slug: "ai-fails-when-we-dont-change-how-we-work",
+  title: "Everyone Can Do More Marketing. Now What?",
+  image: "/images/blog/everyone-can-do-more-marketing-now-what.jpeg",
+  slug: "everyone-can-do-more-marketing-now-what",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "AI Fails When We Don’t Change How We Work",
+    image: "/images/blog/ai-fails-when-we-dont-change-how-we-work.jpeg",
+    slug: "ai-fails-when-we-dont-change-how-we-work",
+  },
   {
     title: "Reverse Engineering Your Competitor’s Go-to-Market Strategy",
     image: "/images/blog/reverse-engineering-your-competitors-go-to-market-strategy.jpeg",
