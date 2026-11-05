@@ -1,22 +1,13 @@
 "use client";
 
-import { useRef, useEffect } from "react";
+import { useRef } from "react";
 import { motion, useInView, useScroll, useTransform } from "framer-motion";
 import { openCalendly } from "@/lib/calendly";
+import RAHeroSystem from "./RAHeroSystem";
 
 export default function RAHero() {
   const ref = useRef(null);
-  const videoRef = useRef<HTMLVideoElement>(null);
   const isInView = useInView(ref, { once: true });
-
-  useEffect(() => {
-    if (!videoRef.current) return;
-    if (isInView) {
-      videoRef.current.play().catch(() => {});
-    } else {
-      videoRef.current.pause();
-    }
-  }, [isInView]);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["start start", "end start"],
@@ -28,7 +19,7 @@ export default function RAHero() {
   return (
     <section
       ref={ref}
-      className="relative flex min-h-screen items-center overflow-hidden bg-white pt-24"
+      className="relative flex min-h-screen items-center overflow-hidden bg-white pt-24 pb-24 lg:pb-0"
     >
       <motion.div
         style={{ opacity: contentOpacity }}
@@ -82,23 +73,17 @@ export default function RAHero() {
             </motion.div>
           </motion.div>
 
-          {/* Right — hero image */}
+          {/* Right — live system graphic */}
           <motion.div
             style={{ y: imageY }}
             initial={{ opacity: 0, x: 40 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 1, delay: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
-            className="relative"
+            className="relative w-full max-w-[520px] lg:max-w-none"
           >
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-[var(--light-gray)] bg-[var(--off-white)] shadow-lg">
-              <video
-                ref={videoRef}
-                src="/videos/dashboard-outcomes.mp4"
-                muted
-                loop
-                playsInline
-                className="absolute inset-0 h-full w-full object-cover"
-              />
+            <div className="relative aspect-[27/31] lg:aspect-[4/3] overflow-hidden rounded-2xl border border-[var(--light-gray)] bg-[var(--off-white)] shadow-lg">
+              <RAHeroSystem start={isInView} layout="tall" className="lg:hidden" />
+              <RAHeroSystem start={isInView} layout="wide" className="hidden lg:block" />
             </div>
             {/* Decorative accent */}
             <div className="absolute -bottom-4 -left-4 -z-10 h-full w-full rounded-2xl bg-[var(--brand-red)]/5" />
