@@ -1,4 +1,186 @@
 {
+  "how-we-should-rethink-crm-in-the-ai-era": {
+    "title": "How We Should Rethink CRM in the AI Era",
+    "slug": "how-we-should-rethink-crm-in-the-ai-era",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Keep it, rebuild it, or start from scratch? AI is changing the economics of software and giving companies new choices about how to run their revenue operations."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’ve spent a good portion of my career working with CRM systems. I’ve helped select them, implement them, customize them, and convince salespeople to use them. I’ve also spent countless hours in pipeline reviews trying to reconcile what the CRM says with what the salespeople tell me."
+      },
+      {
+        "type": "paragraph",
+        "text": "It’s a familiar routine. An opportunity that’s supposed to close this month suddenly slips into next quarter. The salesperson insists the deal is progressing. The CRM says otherwise, or perhaps it says nothing useful at all. We spend the next fifteen minutes figuring out what actually happened."
+      },
+      {
+        "type": "paragraph",
+        "text": "The irony is that we’ve invested enormous amounts of time and money in systems that are supposed to give us better visibility into our businesses, yet we still spend a remarkable amount of time chasing down information."
+      },
+      {
+        "type": "paragraph",
+        "text": "For years, I accepted much of this as the cost of running a sales organization. I’m beginning to question that assumption. More recently, I’ve been involved in building AI workflows that research accounts, identify buying signals, analyze information, and coordinate activities across applications. What’s changed my thinking isn’t simply that AI can perform these tasks. It’s that we can organize the work differently, with AI handling much of the information gathering and coordination while people provide direction, judgment, and oversight."
+      },
+      {
+        "type": "paragraph",
+        "text": "If we were designing our revenue infrastructure from scratch today, I’m not convinced we’d put CRM at the center of it. We might still need a CRM, but it would play a different role. And for companies that already have one, I’m not convinced we should continue investing in it the same way."
+      },
+      {
+        "type": "paragraph",
+        "text": "I see three paths worth considering."
+      },
+      {
+        "type": "heading",
+        "text": "Keep your CRM, but rethink how you use it"
+      },
+      {
+        "type": "paragraph",
+        "text": "Consider a sales organization that’s spent ten years building its Salesforce environment. Customer histories, account relationships, opportunity records, integrations, and business rules are embedded in that system. Replacing it would be expensive, disruptive, and potentially unnecessary."
+      },
+      {
+        "type": "paragraph",
+        "text": "But keeping Salesforce or HubSpot doesn’t mean continuing to operate the way we have for the past twenty years."
+      },
+      {
+        "type": "paragraph",
+        "text": "Consider the administrative work we expect salespeople to perform. They update opportunity stages, enter meeting notes, maintain contact records, research accounts, and prepare information for pipeline reviews. Managers then examine that information, identify inconsistencies, and ask questions that frequently require another round of data collection."
+      },
+      {
+        "type": "paragraph",
+        "text": "Much of this work can now be assisted or performed by AI. An agent can review meeting transcripts, identify changes in an opportunity, and propose CRM updates. Another can monitor accounts for buying signals and prepare outreach recommendations. A third can examine the pipeline and identify deals showing signs of trouble before the weekly forecast meeting."
+      },
+      {
+        "type": "paragraph",
+        "text": "The CRM can remain the authoritative system of record while AI handles an increasing share of the work surrounding it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Of course, this requires more than connecting a chatbot to Salesforce. The underlying data needs to be reliable, APIs need appropriate permissions, and workflows need clear rules about what agents can do independently and what requires human approval. Outputs need to be evaluated for accuracy."
+      },
+      {
+        "type": "paragraph",
+        "text": "This also changes how I’d approach a CRM implementation today. Before configuring screens, fields, and dashboards, I’d want to understand which revenue processes we intend to automate, what information those workflows require, and how people and AI agents will interact with the system. Those decisions should influence the data architecture, integrations, permissions, and even which CRM features we need. Otherwise, we risk implementing an expensive foundation that we’ll soon need to redesign."
+      },
+      {
+        "type": "paragraph",
+        "text": "We’ve become accustomed to making people visit applications to get work done. Increasingly, those applications can come to them through Slack, email, or conversational interfaces."
+      },
+      {
+        "type": "paragraph",
+        "text": "For companies with substantial CRM investments, this strikes me as the most sensible starting point. Keep the system of record, but reconsider how much work people should have to do inside it."
+      },
+      {
+        "type": "heading",
+        "text": "What if we built our own CRM?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Five years ago, if someone had proposed replacing Salesforce with a homegrown CRM, I probably would have tried to talk them out of it."
+      },
+      {
+        "type": "paragraph",
+        "text": "The economics rarely made sense. Why spend years developing customer databases, opportunity management, reporting, permissions, and integrations when established vendors had already invested billions in those capabilities? And someone still had to maintain the software, secure it, and keep it working as the business changed."
+      },
+      {
+        "type": "paragraph",
+        "text": "Today, I’m less certain."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’ve seen how much software development has changed with AI. Applications and integrations that once required substantial engineering effort can sometimes be built by much smaller teams. Modern databases, cloud infrastructure, APIs, and workflow orchestration tools make custom development more practical."
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine a company whose sales organization needs account management, opportunity tracking, forecasting, and a handful of specialized workflows. It might not need hundreds of CRM features or an expensive license for every employee who occasionally accesses customer information."
+      },
+      {
+        "type": "paragraph",
+        "text": "Instead, it could build a system that captures customer interactions, maintains account records, coordinates workflows, and delivers information to employees where they already work. Rather than adapting its processes to the software, the company could design the software around how it wants to operate."
+      },
+      {
+        "type": "paragraph",
+        "text": "But I haven’t changed my mind about everything. Building software is becoming easier. Owning software remains difficult."
+      },
+      {
+        "type": "paragraph",
+        "text": "A CRM system needs reliable data, security, access controls, audit trails, backups, integrations, and ongoing maintenance. Someone needs to understand its architecture, monitor its performance, and take responsibility when something goes wrong. AI-generated code doesn’t eliminate those obligations."
+      },
+      {
+        "type": "paragraph",
+        "text": "And there’s the migration itself. Moving customer records is relatively straightforward compared with preserving the relationships between accounts, contacts, opportunities, activities, and the business processes that depend on them. Historical reporting, integrations, permissions, and workflows all need to survive the transition."
+      },
+      {
+        "type": "paragraph",
+        "text": "The financial comparison also needs to go beyond licensing fees. A custom system may reduce subscription costs while introducing expenses for development, cloud infrastructure, AI usage, security, and ongoing engineering. The relevant comparison is the total cost of owning and operating each alternative over time."
+      },
+      {
+        "type": "paragraph",
+        "text": "I wouldn’t recommend that established companies abandon Salesforce simply because custom software is cheaper to produce. But for companies with relatively straightforward requirements and the technical resources to maintain what they build, the economics deserve another look."
+      },
+      {
+        "type": "heading",
+        "text": "What if you’re starting a company today?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Imagine starting a company tomorrow. You have no CRM, no established sales processes, no legacy integrations, and limited resources. You need to find customers, develop relationships, close business, and retain accounts."
+      },
+      {
+        "type": "paragraph",
+        "text": "Would your first decision really be which CRM to buy?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Mine wouldn’t. I’d begin by identifying the work that needs to happen and asking which parts require people and which can be performed or supported by AI."
+      },
+      {
+        "type": "paragraph",
+        "text": "An AI-native revenue system could research prospective accounts, identify buying signals, prepare personalized outreach, capture meeting information, maintain customer records, and recommend next steps. Employees would remain responsible for relationships, judgment, and important commercial decisions."
+      },
+      {
+        "type": "paragraph",
+        "text": "The underlying technology might be a lightweight CRM connected to AI agents, a custom database with orchestrated workflows, or a combination of commercial applications and internally developed software."
+      },
+      {
+        "type": "paragraph",
+        "text": "Instead of organizing revenue operations around a CRM application, we can organize them around workflows designed to accomplish specific business objectives. The CRM becomes one component of the infrastructure rather than the place where most of the work happens."
+      },
+      {
+        "type": "paragraph",
+        "text": "There is, however, a danger in building too much too early. Startups need customers more than they need elegant technology architectures. Spending months developing a proprietary revenue platform when an inexpensive CRM would do the job is unlikely to be a good use of capital."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’d start with the simplest reliable foundation, automate the work that produces meaningful benefits, and add sophistication as the business grows. Being AI-first shouldn’t mean building everything yourself. It should mean designing the business around what people and AI can accomplish together."
+      },
+      {
+        "type": "heading",
+        "text": "The bigger opportunity"
+      },
+      {
+        "type": "paragraph",
+        "text": "These approaches aren’t mutually exclusive. Companies can retain their CRM while introducing AI-native workflows, replacing components as their needs evolve. The real question isn’t which application to use, but how to design the revenue operation."
+      },
+      {
+        "type": "paragraph",
+        "text": "That also changes what companies should expect from implementation partners. Configuring Salesforce or HubSpot is no longer enough. Understanding revenue operations, designing the architecture, and managing implementation to deliver measurable results matter more than ever."
+      },
+      {
+        "type": "paragraph",
+        "text": "I think back to all those pipeline reviews where we spent more time figuring out what was happening than deciding what to do about it. We had the software, the dashboards, and plenty of data entry. What we lacked was a system that did more of the work for us."
+      },
+      {
+        "type": "paragraph",
+        "text": "The opportunity is to spend less time operating software and more time running the business. That’s a much more interesting problem to solve than choosing our next CRM."
+      },
+      {
+        "type": "cta",
+        "text": "If you’d like to discuss what this could mean for your sales and marketing organization, schedule a conversation. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "everyone-can-do-more-marketing-now-what": {
     "title": "Everyone Can Do More Marketing. Now What?",
     "slug": "everyone-can-do-more-marketing-now-what",

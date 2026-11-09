@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "Everyone Can Do More Marketing. Now What?",
-  image: "/images/blog/everyone-can-do-more-marketing-now-what.jpeg",
-  slug: "everyone-can-do-more-marketing-now-what",
+  title: "How We Should Rethink CRM in the AI Era",
+  image: "/images/blog/how-we-should-rethink-crm-in-the-ai-era.jpeg",
+  slug: "how-we-should-rethink-crm-in-the-ai-era",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "Everyone Can Do More Marketing. Now What?",
+    image: "/images/blog/everyone-can-do-more-marketing-now-what.jpeg",
+    slug: "everyone-can-do-more-marketing-now-what",
+  },
   {
     title: "AI Fails When We Don’t Change How We Work",
     image: "/images/blog/ai-fails-when-we-dont-change-how-we-work.jpeg",
