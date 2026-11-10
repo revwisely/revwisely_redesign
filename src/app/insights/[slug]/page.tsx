@@ -182,6 +182,12 @@ const videoMap: Record<
   string,
   { src: string; poster: string; duration: string; uploadDate: string }
 > = {
+  "how-we-should-rethink-crm-in-the-ai-era": {
+    src: "/videos/how-we-should-rethink-crm-in-the-ai-era.mp4",
+    poster: "/images/blog/how-we-should-rethink-crm-in-the-ai-era.jpeg",
+    duration: "PT43.9S",
+    uploadDate: "2026-11-09",
+  },
   "everyone-can-do-more-marketing-now-what": {
     src: "/videos/everyone-can-do-more-marketing-now-what.mp4",
     poster: "/images/blog/everyone-can-do-more-marketing-now-what.jpeg",
