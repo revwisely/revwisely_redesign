@@ -183,6 +183,12 @@ const videoMap: Record<
   string,
   { src: string; poster: string; duration: string; uploadDate: string }
 > = {
+  "time-to-rethink-your-marketing-organization": {
+    src: "/videos/time-to-rethink-your-marketing-organization.mp4",
+    poster: "/images/blog/time-to-rethink-your-marketing-organization.jpeg",
+    duration: "PT48S",
+    uploadDate: "2026-11-10",
+  },
   "how-we-should-rethink-crm-in-the-ai-era": {
     src: "/videos/how-we-should-rethink-crm-in-the-ai-era.mp4",
     poster: "/images/blog/how-we-should-rethink-crm-in-the-ai-era.jpeg",
