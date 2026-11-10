@@ -1,4 +1,254 @@
 {
+  "time-to-rethink-your-marketing-organization": {
+    "title": "Time to Rethink Your Marketing Organization",
+    "slug": "time-to-rethink-your-marketing-organization",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "And what to do about it."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’ve spent a good part of my career building and managing sales and marketing organizations. I’ve hired people, reorganized teams, introduced new technology, and invested in programs to make marketing more effective and efficient."
+      },
+      {
+        "type": "paragraph",
+        "text": "One thing I’ve learned is that reorganizations seldom solve as many problems as we expect. We change reporting relationships, combine teams, and redefine responsibilities. Six months later, many of the same problems remain. People are overwhelmed, systems don’t work well together, and all that marketing activity isn’t producing better results."
+      },
+      {
+        "type": "paragraph",
+        "text": "The problem often isn’t the people. It’s how we’ve organized the work."
+      },
+      {
+        "type": "paragraph",
+        "text": "AI changes the equation. We can now accomplish work that once required several people, multiple applications, and considerable coordination. That raises an interesting question about how we’ve organized marketing in the first place. Before making changes, though, we need to recognize when the current approach isn’t working."
+      },
+      {
+        "type": "heading",
+        "text": "Look for the flashing red light"
+      },
+      {
+        "type": "heading",
+        "text": "1. Headcount and spending are growing faster than results"
+      },
+      {
+        "type": "paragraph",
+        "text": "Your marketing budget has increased. You’ve added specialists, purchased technology, and expanded programs. Yet revenue growth, customer acquisition costs, and other business results haven’t improved at the same pace."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some investments, particularly brand building, take time to pay off. But when spending consistently grows faster than results, it’s worth asking whether you’re using your resources as well as you can."
+      },
+      {
+        "type": "heading",
+        "text": "2. Your teams operate in silos"
+      },
+      {
+        "type": "paragraph",
+        "text": "Content marketing has its priorities. Demand generation has its campaigns. Digital marketing manages the website and advertising. Marketing operations maintains the systems."
+      },
+      {
+        "type": "paragraph",
+        "text": "Each team may perform well against its own goals, yet marketing as a whole struggles to deliver the expected results. Specialization has value, but it also creates boundaries that work must cross. The more people and departments involved, the more time and money spent coordinating them."
+      },
+      {
+        "type": "heading",
+        "text": "3. Too much time is spent coordinating work"
+      },
+      {
+        "type": "paragraph",
+        "text": "Think about how many meetings, approvals, status updates, and handoffs are required to launch a campaign."
+      },
+      {
+        "type": "paragraph",
+        "text": "Someone develops the strategy. Another writes the content. A designer creates the assets. Marketing operations builds the campaign. Someone else handles distribution. Several people review everything along the way."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’ve sat through more meetings than I care to remember where we spent most of our time discussing the status of work rather than the work itself. At some point, managing the process starts taking nearly as much effort as producing the result."
+      },
+      {
+        "type": "heading",
+        "text": "4. Your martech creates more work than it eliminates"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most marketing organizations have collected an impressive number of applications. CRM, marketing automation, analytics, content management, advertising platforms, intent data, and assorted tools."
+      },
+      {
+        "type": "paragraph",
+        "text": "Each was purchased to solve a problem. Collectively, they can create an entirely different set of problems."
+      },
+      {
+        "type": "paragraph",
+        "text": "People spend hours moving information between systems, fixing data, maintaining connections, and building reports. Valuable employees become administrators of technology rather than contributors to marketing results. I’ve seen organizations invest heavily in software only to discover they need more people to keep it all running."
+      },
+      {
+        "type": "heading",
+        "text": "5. You’re producing more marketing but accomplishing less"
+      },
+      {
+        "type": "paragraph",
+        "text": "Your team publishes more content, launches more campaigns, and sends more emails than ever. But are more prospective customers becoming aware of your company? Are you building trust and generating more qualified demand?"
+      },
+      {
+        "type": "paragraph",
+        "text": "AI has made this problem particularly visible. When everyone can produce more marketing at a fraction of the cost, volume becomes a less useful measure of success. Producing more without improving quality or relevance may actually make things worse."
+      },
+      {
+        "type": "heading",
+        "text": "6. AI is improving individual productivity but not organizational performance"
+      },
+      {
+        "type": "paragraph",
+        "text": "Your employees are using ChatGPT and other AI applications. Writers draft faster, analysts summarize information more quickly, and campaign managers produce materials with less effort."
+      },
+      {
+        "type": "paragraph",
+        "text": "That’s progress, but look at what happens next. Are the same people still moving work through the same approval processes? Are the systems still disconnected? Does each campaign require the same meetings and handoffs?"
+      },
+      {
+        "type": "paragraph",
+        "text": "People can get much more done while the organization continues operating much as it always has. That’s a missed opportunity."
+      },
+      {
+        "type": "heading",
+        "text": "7. Your organization is built around yesterday’s requirements"
+      },
+      {
+        "type": "paragraph",
+        "text": "Look at your job descriptions and organizational chart. How many positions were created because certain activities once required dedicated people? How many roles exist mainly to coordinate work, move information between systems, or operate applications?"
+      },
+      {
+        "type": "paragraph",
+        "text": "Those needs are changing. Strategy, creativity, customer understanding, and judgment remain essential, but the skills needed to run an effective marketing team are changing. Many organizations are still hiring and organizing around assumptions that deserve another look."
+      },
+      {
+        "type": "heading",
+        "text": "What to do about it"
+      },
+      {
+        "type": "paragraph",
+        "text": "The usual response to these problems is to revisit the organizational chart, change reporting relationships, and perhaps combine a few teams. Those changes can help, but they rarely address how the work gets done."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’d take a different approach. Start with the work, figure out the best way to accomplish it, and only then decide what the organization should look like."
+      },
+      {
+        "type": "heading",
+        "text": "1. Start with business outcomes, not the org chart"
+      },
+      {
+        "type": "paragraph",
+        "text": "Most marketing organizations have plenty of goals, metrics, and dashboards. Yet it’s surprisingly easy to become so focused on measuring activity that we lose sight of what the business needs marketing to accomplish."
+      },
+      {
+        "type": "paragraph",
+        "text": "For most B2B companies, that means building awareness and trust, creating qualified demand, helping sales win business, and contributing to profitable growth. I’d look at where the money and effort are going, what those investments are producing, and whether the balance makes sense."
+      },
+      {
+        "type": "paragraph",
+        "text": "Brand building, for example, takes longer to show results than demand generation. Both matter, and judging them by the same short-term measures can lead to poor decisions. The question is whether we’re spending our money and time on the things that matter most."
+      },
+      {
+        "type": "heading",
+        "text": "2. Examine how work actually gets done"
+      },
+      {
+        "type": "paragraph",
+        "text": "Something as ordinary as launching a marketing campaign can reveal a surprising amount of complexity."
+      },
+      {
+        "type": "paragraph",
+        "text": "Consider everyone involved in researching the opportunity, developing the message, creating content, producing assets, setting up systems, getting approvals, and reviewing results. Each person may be doing a perfectly reasonable job, but the combined process can be slow and expensive. Much of the effort goes into moving work between people rather than improving it."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’d examine several important workflows, including content development, campaign execution, lead management, and reporting. Look for delays, repeated work, unnecessary handoffs, and tasks that technology could handle. You’ll probably discover that processes which once made sense have become needlessly complicated."
+      },
+      {
+        "type": "heading",
+        "text": "3. Redesign the work around people and AI"
+      },
+      {
+        "type": "paragraph",
+        "text": "Once you understand how a workflow operates, consider how you would build it today with the technology now available. You may discover that much of the existing process is unnecessary."
+      },
+      {
+        "type": "paragraph",
+        "text": "Take content marketing. Traditionally, developing an article might involve a researcher, writer, subject matter expert, editor, designer, and someone responsible for distribution. Today, an AI-native workflow can handle much of the research, develop an outline, produce a draft, check it against editorial standards, and prepare supporting materials. People provide the expertise, original thinking, judgment, and approval."
+      },
+      {
+        "type": "paragraph",
+        "text": "We’ve been applying this approach in our own business, and it’s changed how I think about marketing productivity. We build workflows where AI handles specific tasks, checks its work against clear standards, and brings people in when their expertise is needed."
+      },
+      {
+        "type": "paragraph",
+        "text": "The improvements go well beyond speed. We can reduce unnecessary coordination, improve quality, and give people more time to focus on work that requires their experience and judgment."
+      },
+      {
+        "type": "heading",
+        "text": "4. Let the new way of working determine the organization"
+      },
+      {
+        "type": "paragraph",
+        "text": "Only after redesigning the work would I reconsider the organizational structure. By then, you should have a much better idea of which skills you need, where people add value, and which tasks no longer require dedicated employees."
+      },
+      {
+        "type": "paragraph",
+        "text": "Some roles may change, while others become more important. Smaller teams with a mix of skills may accomplish work that once required several departments. You may also need people with expertise in AI engineering, workflow design, and technical project management."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’d focus first on what the organization could accomplish with its existing resources. Could you produce better marketing at a lower cost? Enter new markets without adding employees? Spend more time on strategy and customer engagement? The answers should help determine how you organize the team."
+      },
+      {
+        "type": "heading",
+        "text": "5. Make changes gradually and prove they work"
+      },
+      {
+        "type": "paragraph",
+        "text": "There’s a certain appeal to announcing a major reorganization. It signals action and gives everyone a new structure. Unfortunately, it also creates disruption before anyone knows whether the new approach will work."
+      },
+      {
+        "type": "paragraph",
+        "text": "I’d start with two or three important workflows where the opportunity for improvement is substantial. Measure how long the work takes, what it costs, and how well it performs. Then redesign each workflow and compare the results."
+      },
+      {
+        "type": "paragraph",
+        "text": "Producing twice as much content in half the time sounds impressive, but it isn’t valuable if nobody reads it. Reducing campaign costs accomplishes little if the campaigns generate less qualified demand. The goal is better business results, not simply greater output."
+      },
+      {
+        "type": "paragraph",
+        "text": "As the new workflows prove themselves, expand the approach. You’ll learn what people, skills, and technology you really need."
+      },
+      {
+        "type": "heading",
+        "text": "Rethink the Work, Not Just the Organization"
+      },
+      {
+        "type": "paragraph",
+        "text": "For years, our response to growing marketing demands has been to add people, agencies, and software. Eventually, the organization becomes more complicated to manage, so we reorganize. I’ve been through this merry-go-round more than once."
+      },
+      {
+        "type": "paragraph",
+        "text": "What interests me most about AI is that we can question some of the assumptions we’ve made about how marketing organizations should operate. We have an opportunity to accomplish much more without continually adding people, technology, and complexity."
+      },
+      {
+        "type": "paragraph",
+        "text": "Given how disruptive reorganizations can be, particularly for the people affected, I think we should spend more time questioning how work gets done before deciding how to rearrange the people doing it."
+      },
+      {
+        "type": "paragraph",
+        "text": "Here’s the question I’d encourage every marketing leader to consider: If you were building your marketing organization from scratch today, knowing what AI can do, would you build the one you have?"
+      },
+      {
+        "type": "cta",
+        "text": "If you’d like to discuss what this could mean for your sales and marketing organization, schedule a conversation. {{Schedule a Consultation}}"
+      }
+    ]
+  },
   "how-we-should-rethink-crm-in-the-ai-era": {
     "title": "How We Should Rethink CRM in the AI Era",
     "slug": "how-we-should-rethink-crm-in-the-ai-era",

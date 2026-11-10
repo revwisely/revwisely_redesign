@@ -8,9 +8,9 @@ import Footer from "@/components/Footer";
 const POSTS_PER_PAGE = 16; // 4 rows × 4 columns
 
 const featuredPost = {
-  title: "How We Should Rethink CRM in the AI Era",
-  image: "/images/blog/how-we-should-rethink-crm-in-the-ai-era.jpeg",
-  slug: "how-we-should-rethink-crm-in-the-ai-era",
+  title: "Time to Rethink Your Marketing Organization",
+  image: "/images/blog/time-to-rethink-your-marketing-organization.jpeg",
+  slug: "time-to-rethink-your-marketing-organization",
 };
 
 const sidebarPosts = [
@@ -21,6 +21,11 @@ const sidebarPosts = [
 ];
 
 const posts = [
+  {
+    title: "How We Should Rethink CRM in the AI Era",
+    image: "/images/blog/how-we-should-rethink-crm-in-the-ai-era.jpeg",
+    slug: "how-we-should-rethink-crm-in-the-ai-era",
+  },
   {
     title: "Everyone Can Do More Marketing. Now What?",
     image: "/images/blog/everyone-can-do-more-marketing-now-what.jpeg",
